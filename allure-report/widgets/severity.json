@@ -1,0 +1,31 @@
+[ {
+  "uid" : "e61833b4f3d29c5b",
+  "name" : "\"before each\" hook",
+  "time" : {
+    "start" : 1579724809762,
+    "stop" : 1579724811753,
+    "duration" : 1991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "354c9216f424c253",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1579724809762,
+    "stop" : 0,
+    "duration" : -1579724809762
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "eab05915e1753751",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1579724809760,
+    "stop" : 1579724809762,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
