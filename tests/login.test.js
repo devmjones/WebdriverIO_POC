@@ -1,11 +1,11 @@
 import {expect} from 'chai';
 import Login from './classes/Login';
 
-beforeEach(()=>{
-    Login.open();
-});
-
 describe('Login Form', () => {
+    beforeEach(()=>{
+        Login.open();
+    });
+
     it('should not allow login with invalid username', () => {
         // can us browser.debug() to set breakpoints
 
