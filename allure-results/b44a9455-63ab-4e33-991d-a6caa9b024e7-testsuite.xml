@@ -1,0 +1,138 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1579747025651' stop='1579747030368'>
+    <name>webdriver.io page</name>
+    <title>webdriver.io page</title>
+    <test-cases>
+        <test-case start='1579747025652' status='passed' stop='1579747025653'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1579747025653' status='undefined'>
+            <name>should have the right title</name>
+            <title>should have the right title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1579747025653' status='passed' stop='1579747028546'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1579747028547' status='undefined'>
+            <name>should fail so hard</name>
+            <title>should fail so hard</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1579747028547' status='passed' stop='1579747029003'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1579747029012' status='undefined'>
+            <name>should fail so hard</name>
+            <title>should fail so hard</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1579747029012' status='passed' stop='1579747029652'>
+            <name>"before each" hook</name>
+            <title>"before each" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1579747029656' status='undefined'>
+            <name>should fail so hard</name>
+            <title>should fail so hard</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1579747029657' status='failed' stop='1579747030367'>
+            <name>should fail so hard</name>
+            <title>should fail so hard</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>expected 'WebdriverIO · Next-gen WebDriver test framework for Node.js' to not equal 'WebdriverIO · Next-gen WebDriver test framework for Node.js'</message>
+                <stack-trace>AssertionError: expected 'WebdriverIO · Next-gen WebDriver test framework for Node.js' to not equal 'WebdriverIO · Next-gen WebDriver test framework for Node.js'
+                    at Context.&lt;anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/check-title.test.js:23:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,9 +1,10 @@
-var baseAppUrl = "http://beta.webdriver.io/";
-var timeout = process.env.DEBUG ? 600000 : 30000;
+let baseAppUrl = "http://beta.webdriver.io/";
+const timeout = process.env.DEBUG ? 600000 : 30000;
+let browserUnderTest = process.env.BROWSER || 'chrome';
 
 if(process.env.SERVER === "prod")
 {
-    baseAppUrl = "https://webdriver.io/"
+    baseAppUrl = "/"
 }
 
 exports.config = {
@@ -15,10 +16,7 @@ exports.config = {
     // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
     // on a remote machine).
     runner: 'local',
-    //
-    // Override default path ('/wd/hub') for chromedriver service.
-    path: '/',
-    //
+
     // ==================
     // Specify Test Files
     // ==================
@@ -34,6 +32,13 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+
+    // Override default path ('/wd/hub') for chromedriver service.
+    path: '/wd/hub',
+
+    suites:{
+        Basic:['./tests/login.test.js'], // can also do by dir:  /tests/Basic/*
+    },
     //
     // ============
     // Capabilities
@@ -61,8 +66,8 @@ exports.config = {
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
         maxInstances: 5,
-        //
-        browserName: 'chrome'
+        browserName: browserUnderTest
+
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
@@ -104,7 +109,8 @@ exports.config = {
 
     //
     // Default timeout for all waitFor* commands.
-    waitforTimeout: 10000,
+    waitforTimeout: 30000,
+    waitforInterval:1000,
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
@@ -118,7 +124,6 @@ exports.config = {
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
     services: ['chromedriver','selenium-standalone', 'geckodriver'],
-    path: '/wd/hub',
     seleniumLogs: 'logs',
     seleniumInstallArgs: {
         drivers: {
@@ -158,7 +163,8 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: timeout
+        timeout: timeout,
+        retries: 2
     },
     //
     // =====
@@ -173,8 +179,9 @@ exports.config = {
      * @param {Object} config wdio configuration object
      * @param {Array.<Object>} capabilities list of capabilities details
      */
-    // onPrepare: function (config, capabilities) {
-    // },
+    onPrepare: function (config, capabilities) {
+        // good place to start up browser drivers
+    },
     /**
      * Gets executed just before initialising the webdriver session and test framework. It allows you
      * to manipulate configurations depending on the capability or spec.
@@ -270,8 +277,9 @@ exports.config = {
      * @param {Array.<Object>} capabilities list of capabilities details
      * @param {<Object>} results object containing test results
      */
-    // onComplete: function(exitCode, config, capabilities, results) {
-    // },
+    onComplete: function(exitCode, config, capabilities, results) {
+        // Shut down browser drivers
+    },
     /**
     * Gets executed when a refresh happens.
     * @param {String} oldSessionId session ID of the old session

@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1579814655785' stop='1579814662019'>
+    <name>Login Form</name>
+    <title>Login Form</title>
+    <test-cases>
+        <test-case start='1579814655786' status='undefined'>
+            <name>should not allow login with invalid username</name>
+            <title>should not allow login with invalid username</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1579814660690' status='undefined'>
+            <name>should not allow login with invalid username</name>
+            <title>should not allow login with invalid username</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1579814661381' status='failed' stop='1579814662019'>
+            <name>should not allow login with invalid username</name>
+            <title>should not allow login with invalid username</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>object tested must be an array, a map, an object, a set, a string, or a weakset, but object given</message>
+                <stack-trace>AssertionError: object tested must be an array, a map, an object, a set, a string, or a weakset, but object given
+                    at Context.&lt;anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/login.test.js:11:30)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
