@@ -1,11 +1,10 @@
-let baseAppUrl = "http://beta.webdriver.io/";
+
 const timeout = process.env.DEBUG ? 600000 : 30000;
 let browserUnderTest = process.env.BROWSER || 'chrome';
 
-if(process.env.SERVER === "prod")
-{
-    baseAppUrl = "https://webdriver.io/"
-}
+let baseAppUrl = (process.env.PROD === 'true')
+    ? 'https://webdriver.io/'
+    : 'http://beta.webdriver.io/';
 
 exports.config = {
     //
