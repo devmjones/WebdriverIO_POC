@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "354c9216f424c253",
+      "uid" : "71f3a32cd899b2cf",
       "status" : "unknown",
       "time" : {
-        "start" : 1579724809762,
+        "start" : 1579810648428,
         "stop" : 0,
-        "duration" : -1579724809762
+        "duration" : -1579810648428
       }
     } ]
   },
@@ -28,12 +28,89 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e61833b4f3d29c5b",
+      "uid" : "58a8372252559475",
       "status" : "passed",
       "time" : {
-        "start" : 1579724809762,
-        "stop" : 1579724811753,
-        "duration" : 1991
+        "start" : 1579810650365,
+        "stop" : 1579810650924,
+        "duration" : 559
+      }
+    } ]
+  },
+  "87d73be78c229769635ee15a205afa4a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2916e8fee95642ca",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579818150089,
+        "stop" : 0,
+        "duration" : -1579818150089
+      }
+    } ]
+  },
+  "63347326824fa7dd58a778eaf7599696" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1169b08e780bd9dd",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579810650365,
+        "stop" : 0,
+        "duration" : -1579810650365
+      }
+    } ]
+  },
+  "5d09f1e86fc8c3b0ff052376b16d4000" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e8817059187cf421",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579818152522,
+        "stop" : 1579818153281,
+        "duration" : 759
+      }
+    } ]
+  },
+  "edc02821bef107caf757d4d385c04eca" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c4b7114a4458b9cd",
+      "status" : "failed",
+      "statusDetails" : "expected 'WebdriverIO · Next-gen WebDriver test framework for Node.js' to not equal 'WebdriverIO · Next-gen WebDriver test framework for Node.js'",
+      "time" : {
+        "start" : 1579747029657,
+        "stop" : 1579747030367,
+        "duration" : 710
       }
     } ]
   },
@@ -47,12 +124,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "eab05915e1753751",
+      "uid" : "a9d2b95aadab7652",
       "status" : "passed",
       "time" : {
-        "start" : 1579724809760,
-        "stop" : 1579724809762,
-        "duration" : 2
+        "start" : 1579810648427,
+        "stop" : 1579810648428,
+        "duration" : 1
+      }
+    } ]
+  },
+  "42f665d9e012b30b8aee4095ce6f1783" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e6cb129e1dbd222d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1579747002922,
+        "stop" : 1579747002922,
+        "duration" : 0
+      }
+    } ]
+  },
+  "c3f115edf22d8510c63597d86a5a512b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ded556fc030c4440",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579818152522,
+        "stop" : 0,
+        "duration" : -1579818152522
       }
     } ]
   }

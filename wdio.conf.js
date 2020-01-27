@@ -4,7 +4,7 @@ let browserUnderTest = process.env.BROWSER || 'chrome';
 
 if(process.env.SERVER === "prod")
 {
-    baseAppUrl = "/"
+    baseAppUrl = "https://webdriver.io/"
 }
 
 exports.config = {
@@ -37,7 +37,9 @@ exports.config = {
     path: '/wd/hub',
 
     suites:{
-        Basic:['./tests/login.test.js'], // can also do by dir:  /tests/Basic/*
+        Login:['./tests/login.test.js'], // can also do by dir:  /tests/Basic/*
+        Title:['./tests/checkTitle.test.js']
+
     },
     //
     // ============

@@ -1,0 +1,82 @@
+{
+  "uid" : "e8817059187cf421",
+  "name" : "\"before each\" hook",
+  "fullName" : "Login Form.\"before each\" hook",
+  "historyId" : "5d09f1e86fc8c3b0ff052376b16d4000",
+  "time" : {
+    "start" : 1579818152522,
+    "stop" : 1579818153281,
+    "duration" : 759
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Form"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before each\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "51181817bf130494",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579818150089,
+        "stop" : 1579818152522,
+        "duration" : 2433
+      }
+    }, {
+      "uid" : "ad3a5386daef4848",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579817964658,
+        "stop" : 1579817965347,
+        "duration" : 689
+      }
+    }, {
+      "uid" : "bfb8d7240e8ae951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579817962280,
+        "stop" : 1579817964658,
+        "duration" : 2378
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8817059187cf421.json",
+  "parameterValues" : [ "chrome" ]
+}

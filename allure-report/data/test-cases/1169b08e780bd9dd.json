@@ -1,0 +1,82 @@
+{
+  "uid" : "1169b08e780bd9dd",
+  "name" : "should print browser object",
+  "fullName" : "webdriver.io page.should print browser object",
+  "historyId" : "63347326824fa7dd58a778eaf7599696",
+  "time" : {
+    "start" : 1579810650365,
+    "stop" : 0,
+    "duration" : -1579810650365
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "webdriver.io page"
+  }, {
+    "name" : "testClass",
+    "value" : "webdriver.io page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should print browser object"
+  }, {
+    "name" : "package",
+    "value" : "webdriver.io page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6a02c92c4ecc73ba",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579748220942,
+        "stop" : 0,
+        "duration" : -1579748220942
+      }
+    }, {
+      "uid" : "7a270fb77db42da3",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579748026550,
+        "stop" : 0,
+        "duration" : -1579748026550
+      }
+    }, {
+      "uid" : "4e8520620ea2c717",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579747144915,
+        "stop" : 0,
+        "duration" : -1579747144915
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1169b08e780bd9dd.json",
+  "parameterValues" : [ "chrome" ]
+}

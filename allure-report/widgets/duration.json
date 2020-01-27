@@ -1,31 +1,91 @@
 [ {
-  "uid" : "354c9216f424c253",
+  "uid" : "71f3a32cd899b2cf",
   "name" : "should have the right title",
   "time" : {
-    "start" : 1579724809762,
+    "start" : 1579810648428,
     "stop" : 0,
-    "duration" : -1579724809762
+    "duration" : -1579810648428
   },
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "e61833b4f3d29c5b",
+  "uid" : "c4b7114a4458b9cd",
+  "name" : "should fail so hard",
+  "time" : {
+    "start" : 1579747029657,
+    "stop" : 1579747030367,
+    "duration" : 710
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ded556fc030c4440",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1579818152522,
+    "stop" : 0,
+    "duration" : -1579818152522
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "e8817059187cf421",
   "name" : "\"before each\" hook",
   "time" : {
-    "start" : 1579724809762,
-    "stop" : 1579724811753,
-    "duration" : 1991
+    "start" : 1579818152522,
+    "stop" : 1579818153281,
+    "duration" : 759
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "eab05915e1753751",
-  "name" : "\"before all\" hook",
+  "uid" : "1169b08e780bd9dd",
+  "name" : "should print browser object",
   "time" : {
-    "start" : 1579724809760,
-    "stop" : 1579724809762,
-    "duration" : 2
+    "start" : 1579810650365,
+    "stop" : 0,
+    "duration" : -1579810650365
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "58a8372252559475",
+  "name" : "\"before each\" hook",
+  "time" : {
+    "start" : 1579810650365,
+    "stop" : 1579810650924,
+    "duration" : 559
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9d2b95aadab7652",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1579810648427,
+    "stop" : 1579810648428,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2916e8fee95642ca",
+  "name" : "should not allow login with invalid username",
+  "time" : {
+    "start" : 1579818150089,
+    "stop" : 0,
+    "duration" : -1579818150089
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "e6cb129e1dbd222d",
+  "name" : "should skip test",
+  "time" : {
+    "start" : 1579747002922,
+    "stop" : 1579747002922,
+    "duration" : 0
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]

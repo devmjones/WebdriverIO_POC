@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "show report": "allure generate allure-results && allure open"
+    "report": "/usr/local/bin/allure generate allure-results --clean && /usr/local/bin/allure open"
   },
   "keywords": [],
   "author": "",

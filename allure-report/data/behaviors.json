@@ -2,40 +2,118 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
+    "name" : "should skip test",
+    "uid" : "e6cb129e1dbd222d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1579747002922,
+      "stop" : 1579747002922,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should fail so hard",
+    "uid" : "c4b7114a4458b9cd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1579747029657,
+      "stop" : 1579747030367,
+      "duration" : 710
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
     "name" : "\"before all\" hook",
-    "uid" : "eab05915e1753751",
+    "uid" : "a9d2b95aadab7652",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1579724809760,
-      "stop" : 1579724809762,
-      "duration" : 2
+      "start" : 1579810648427,
+      "stop" : 1579810648428,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "should have the right title",
-    "uid" : "354c9216f424c253",
+    "uid" : "71f3a32cd899b2cf",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "unknown",
     "time" : {
-      "start" : 1579724809762,
+      "start" : 1579810648428,
       "stop" : 0,
-      "duration" : -1579724809762
+      "duration" : -1579810648428
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should print browser object",
+    "uid" : "1169b08e780bd9dd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1579810650365,
+      "stop" : 0,
+      "duration" : -1579810650365
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome" ]
   }, {
     "name" : "\"before each\" hook",
-    "uid" : "e61833b4f3d29c5b",
+    "uid" : "58a8372252559475",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1579724809762,
-      "stop" : 1579724811753,
-      "duration" : 1991
+      "start" : 1579810650365,
+      "stop" : 1579810650924,
+      "duration" : 559
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should not allow login with invalid username",
+    "uid" : "2916e8fee95642ca",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1579818150089,
+      "stop" : 0,
+      "duration" : -1579818150089
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "should login with valid credentials",
+    "uid" : "ded556fc030c4440",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "unknown",
+    "time" : {
+      "start" : 1579818152522,
+      "stop" : 0,
+      "duration" : -1579818152522
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome" ]
+  }, {
+    "name" : "\"before each\" hook",
+    "uid" : "e8817059187cf421",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1579818152522,
+      "stop" : 1579818153281,
+      "duration" : 759
     },
     "flaky" : false,
     "newFailed" : false,

@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 'WebdriverIO · Next-gen WebDriver test framework for Node.js' to not equal 'WebdriverIO · Next-gen WebDriver test framework for Node.js'",
+      "children" : [ {
+        "name" : "should fail so hard",
+        "uid" : "c4b7114a4458b9cd",
+        "parentUid" : "eb338c7a335645ced8d1977dea9e241e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1579747029657,
+          "stop" : 1579747030367,
+          "duration" : 710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "eb338c7a335645ced8d1977dea9e241e"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
 }

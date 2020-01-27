@@ -1,14 +1,25 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
     "uid" : "601e7f3c0a9c957fa7f229ca6a567c98",
     "name" : "webdriver.io page",
     "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 2,
+      "unknown" : 2,
+      "total" : 6
+    }
+  }, {
+    "uid" : "aac42551cb9f4d6f2e4e5bcbf3d2525d",
+    "name" : "Login Form",
+    "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 1,
+      "passed" : 1,
+      "unknown" : 2,
       "total" : 3
     }
   } ]

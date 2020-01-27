@@ -1,0 +1,56 @@
+{
+  "uid" : "ad3a5386daef4848",
+  "name" : "\"before each\" hook",
+  "fullName" : "Login Form.\"before each\" hook",
+  "historyId" : "5d09f1e86fc8c3b0ff052376b16d4000",
+  "time" : {
+    "start" : 1579817964658,
+    "stop" : 1579817965347,
+    "duration" : 689
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Form"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before each\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad3a5386daef4848.json",
+  "parameterValues" : [ "chrome" ]
+}

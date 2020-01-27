@@ -1,0 +1,56 @@
+{
+  "uid" : "b85809b470410039",
+  "name" : "should login with valid credentials",
+  "fullName" : "Login Form.should login with valid credentials",
+  "historyId" : "c3f115edf22d8510c63597d86a5a512b",
+  "time" : {
+    "start" : 1579815799589,
+    "stop" : 1579815800283,
+    "duration" : 694
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Form"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Login Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b85809b470410039.json",
+  "parameterValues" : [ "chrome" ]
+}

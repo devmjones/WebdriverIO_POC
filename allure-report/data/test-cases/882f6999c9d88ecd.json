@@ -1,0 +1,58 @@
+{
+  "uid" : "882f6999c9d88ecd",
+  "name" : "should not allow login with invalid username",
+  "fullName" : "Login Form.should not allow login with invalid username",
+  "historyId" : "87d73be78c229769635ee15a205afa4a",
+  "time" : {
+    "start" : 1579814271772,
+    "stop" : 1579814272396,
+    "duration" : 624
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected { Object (sessionId, elementId, ...) } to equal 'Your username is invalid!'",
+  "statusTrace" : "AssertionError: expected { Object (sessionId, elementId, ...) } to equal 'Your username is invalid!'\n                    at Context.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/login.test.js:12:24)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Form"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow login with invalid username"
+  }, {
+    "name" : "package",
+    "value" : "Login Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "882f6999c9d88ecd.json",
+  "parameterValues" : [ "chrome" ]
+}

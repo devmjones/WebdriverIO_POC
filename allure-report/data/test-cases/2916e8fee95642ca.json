@@ -1,0 +1,247 @@
+{
+  "uid" : "2916e8fee95642ca",
+  "name" : "should not allow login with invalid username",
+  "fullName" : "Login Form.should not allow login with invalid username",
+  "historyId" : "87d73be78c229769635ee15a205afa4a",
+  "time" : {
+    "start" : 1579818150089,
+    "stop" : 0,
+    "duration" : -1579818150089
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Form"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow login with invalid username"
+  }, {
+    "name" : "package",
+    "value" : "Login Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8ea42db70875224f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579817962280,
+        "stop" : 0,
+        "duration" : -1579817962280
+      }
+    }, {
+      "uid" : "254e4d2a609c7148",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579816978636,
+        "stop" : 1579816983019,
+        "duration" : 4383
+      }
+    }, {
+      "uid" : "97c973ce9ca4c350",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579816916751,
+        "stop" : 1579816924575,
+        "duration" : 7824
+      }
+    }, {
+      "uid" : "63fb13496a7b00ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579816073409,
+        "stop" : 1579816075744,
+        "duration" : 2335
+      }
+    }, {
+      "uid" : "56b785e62444ed80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579815821606,
+        "stop" : 1579815823931,
+        "duration" : 2325
+      }
+    }, {
+      "uid" : "bbf17e20c65285c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579815794889,
+        "stop" : 1579815799588,
+        "duration" : 4699
+      }
+    }, {
+      "uid" : "f58e411582c2a8f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579814748047,
+        "stop" : 1579814751600,
+        "duration" : 3553
+      }
+    }, {
+      "uid" : "39c8a4ee021be950",
+      "status" : "failed",
+      "statusDetails" : "object tested must be an array, a map, an object, a set, a string, or a weakset, but object given",
+      "time" : {
+        "start" : 1579814661381,
+        "stop" : 1579814662019,
+        "duration" : 638
+      }
+    }, {
+      "uid" : "6067b2d6a1cd39f7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814660690,
+        "stop" : 0,
+        "duration" : -1579814660690
+      }
+    }, {
+      "uid" : "41e2fc62d394cb2e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814655786,
+        "stop" : 0,
+        "duration" : -1579814655786
+      }
+    }, {
+      "uid" : "f18a84b0b5b4c004",
+      "status" : "failed",
+      "statusDetails" : "object tested must be an array, a map, an object, a set, a string, or a weakset, but object given",
+      "time" : {
+        "start" : 1579814580229,
+        "stop" : 1579814580864,
+        "duration" : 635
+      }
+    }, {
+      "uid" : "64e839a79c70b0fe",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814579078,
+        "stop" : 0,
+        "duration" : -1579814579078
+      }
+    }, {
+      "uid" : "a1068f946b3dc99b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814574550,
+        "stop" : 0,
+        "duration" : -1579814574550
+      }
+    }, {
+      "uid" : "fa10abb35c8df893",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, elementId, ...) } to equal 'Your username is invalid!'",
+      "time" : {
+        "start" : 1579814460312,
+        "stop" : 1579814461397,
+        "duration" : 1085
+      }
+    }, {
+      "uid" : "58988c2802e5a56d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814458984,
+        "stop" : 0,
+        "duration" : -1579814458984
+      }
+    }, {
+      "uid" : "5bab525e148a5996",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814455414,
+        "stop" : 0,
+        "duration" : -1579814455414
+      }
+    }, {
+      "uid" : "882f6999c9d88ecd",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, elementId, ...) } to equal 'Your username is invalid!'",
+      "time" : {
+        "start" : 1579814271772,
+        "stop" : 1579814272396,
+        "duration" : 624
+      }
+    }, {
+      "uid" : "fae3376ac28e822c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814270924,
+        "stop" : 0,
+        "duration" : -1579814270924
+      }
+    }, {
+      "uid" : "8cc70d386d5b7b99",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814267808,
+        "stop" : 0,
+        "duration" : -1579814267808
+      }
+    }, {
+      "uid" : "cbd2b1e864e88cf1",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, elementId, ...) } to equal 'Your username is invalid!'",
+      "time" : {
+        "start" : 1579814226382,
+        "stop" : 1579814227002,
+        "duration" : 620
+      }
+    }, {
+      "uid" : "bde43bdabadf91fb",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814222841,
+        "stop" : 0,
+        "duration" : -1579814222841
+      }
+    }, {
+      "uid" : "35052bfed96e2e96",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814217892,
+        "stop" : 0,
+        "duration" : -1579814217892
+      }
+    }, {
+      "uid" : "454d998d69dd9a87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579810768160,
+        "stop" : 1579810769915,
+        "duration" : 1755
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2916e8fee95642ca.json",
+  "parameterValues" : [ "chrome" ]
+}

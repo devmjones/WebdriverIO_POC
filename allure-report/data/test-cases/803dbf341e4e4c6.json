@@ -1,0 +1,46 @@
+{
+  "uid" : "803dbf341e4e4c6",
+  "name" : "should skip test",
+  "fullName" : "webdriver.io page.should skip test",
+  "historyId" : "42f665d9e012b30b8aee4095ce6f1783",
+  "time" : {
+    "start" : 1579746947154,
+    "stop" : 1579746947154,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "webdriver.io page"
+  }, {
+    "name" : "testClass",
+    "value" : "webdriver.io page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should skip test"
+  }, {
+    "name" : "package",
+    "value" : "webdriver.io page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "803dbf341e4e4c6.json",
+  "parameterValues" : [ ]
+}

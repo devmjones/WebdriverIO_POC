@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"unknown","Wed Jan 22 13:26:49 MST 2020","Wed Dec 31 17:00:00 MST 1969","-1579724809762","","webdriver.io page","","webdriver.io page","should have the right title","should have the right title",""
+"passed","Wed Jan 22 13:26:49 MST 2020","Wed Jan 22 13:26:51 MST 2020","1991","","webdriver.io page","","webdriver.io page","""before each"" hook","""before each"" hook",""
+"passed","Wed Jan 22 13:26:49 MST 2020","Wed Jan 22 13:26:49 MST 2020","2","","webdriver.io page","","webdriver.io page","""before all"" hook","""before all"" hook",""
