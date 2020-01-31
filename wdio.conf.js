@@ -5,10 +5,12 @@ let baseAppUrl = (process.env.PROD === 'true')
 let browserUnderTest = process.env.BROWSER;
 let path;
 let maxInstances;
+let browserOpts;
+let chromeOpts = 'goog:chromeOptions';
 
 if (browserUnderTest === 'chrome'){
-    path = '/wd/hub'
-    maxInstances = 5
+    path = '/wd/hub';
+    maxInstances = 5;
 }
 
 else if (browserUnderTest === 'firefox'){
@@ -77,7 +79,17 @@ exports.config = {
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
         maxInstances: 5,
-        browserName: browserUnderTest
+        browserName: browserUnderTest,
+        'goog:chromeOptions': {
+            // to run chrome headless the following flags are required
+            // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
+            args: ['--headless', '--disable-gpu'],
+        },
+        'moz:firefoxOptions': {
+            // flag to activate Firefox headless mode (see https://github.com/mozilla/geckodriver/blob/master/README.md#firefox-capabilities for more details about moz:firefoxOptions)
+            args: ['-headless']
+        }
+
 
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -138,17 +150,15 @@ exports.config = {
     seleniumLogs: 'logs',
     seleniumInstallArgs: {
         drivers: {
-            chrome: { version: '79.0.2' },
             firefox: { version: '1.19.1' },
         }
     },
     seleniumArgs: {
         drivers: {
-            chrome: { version: '79.0.2' },
             firefox: { version: '1.19.1' },
         }
     },
-    //
+
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: https://webdriver.io/docs/frameworks.html

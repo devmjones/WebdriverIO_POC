@@ -2,86 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9cc0cff-714a-420c-9c26-2dffa594bbbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/LICENSE 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/bin/webdriver-manager 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/config 2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/android_sdk 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/android_sdk.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/appium 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/appium.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/binary 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/binary.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/chrome_driver 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/chrome_driver.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/chrome_xml 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/chrome_xml.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/config_source 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/config_source.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/gecko_driver 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/gecko_driver.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/gecko_driver_github 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/gecko_driver_github.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/iedriver 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/iedriver.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/iedriver_xml 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/iedriver_xml.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/index 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/index.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/standalone 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/standalone.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/standalone_xml 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/standalone_xml.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/cli 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/cli.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/index 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/index.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/logger 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/logger.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/options 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/options.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/programs 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/programs.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli_instance 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli_instance.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/clean 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/clean.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/index 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/index.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/initialize 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/initialize.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/opts 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/opts.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/shutdown 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/shutdown.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/start 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/start.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/status 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/status.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/update 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/update.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/version 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/version.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/config 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/config.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/downloaded_binary 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/downloaded_binary.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/downloader 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/downloader.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/file_manager 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/file_manager.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/index 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/index.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/http_utils 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/http_utils.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/utils 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/utils.d 2.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/webdriver 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/package 2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/config 2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/gulpfile 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/package 2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.8.3.test.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.8.3.test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -99,8 +21,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wdio.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-451">
-              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="273">
+              <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -237,7 +168,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27776000" />
+    <option name="totallyTimeSpent" value="30577000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="584" y="23" width="1095" height="899" extended-state="0" />
@@ -317,13 +248,6 @@
         <state relative-caret-position="-4" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/webdriver/build/utils.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
@@ -331,10 +255,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wdio.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-451">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="273">
+          <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
         </state>
       </provider>
     </entry>
