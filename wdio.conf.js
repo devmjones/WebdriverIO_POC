@@ -1,10 +1,17 @@
-
-const timeout = process.env.DEBUG ? 600000 : 30000;
-let browserUnderTest = process.env.BROWSER || 'chrome';
-
 let baseAppUrl = (process.env.PROD === 'true')
     ? 'https://webdriver.io/'
     : 'http://beta.webdriver.io/';
+
+let browserUnderTest = process.env.BROWSER;
+let path;
+
+if (browserUnderTest === 'chrome'){
+    path = '/wd/hub'
+}
+
+else if (browserUnderTest === 'firefox'){
+    path = '/'
+}
 
 exports.config = {
     //
@@ -33,7 +40,7 @@ exports.config = {
     ],
 
     // Override default path ('/wd/hub') for chromedriver service.
-    path: '/wd/hub',
+    path:path,
 
     suites:{
         Login:['./tests/login.test.js'], // can also do by dir:  /tests/Basic/*
@@ -124,17 +131,17 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['chromedriver','selenium-standalone', 'geckodriver'],
+    services: ['selenium-standalone', 'chromedriver'],
     seleniumLogs: 'logs',
     seleniumInstallArgs: {
         drivers: {
-            chrome: { version: '79.0.3945.117 ' },
-            firefox: { version: '72.0.2' },
+            chrome: { version: '79.0.2' },
+            firefox: { version: '1.19.1' },
         }
     },
     seleniumArgs: {
         drivers: {
-            chrome: { version: '79.0.0' },
+            chrome: { version: '79.0.2' },
             firefox: { version: '1.19.1' },
         }
     },
@@ -164,7 +171,6 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: timeout,
         retries: 2
     },
     //
