@@ -3,19 +3,36 @@ let baseAppUrl = (process.env.PROD === 'true')
     : 'http://beta.webdriver.io/';
 
 let browserUnderTest = process.env.BROWSER;
+let headless = process.env.HEADLESS;
+let gpu = '--disable-gpu';
 let path;
 let maxInstances;
-let browserOpts;
-let chromeOpts = 'goog:chromeOptions';
+
 
 if (browserUnderTest === 'chrome'){
     path = '/wd/hub';
     maxInstances = 5;
+    if(headless){
+        headless = '-headless';
+        gpu = '--disable-gpu'
+    }
+
+    else {
+        headless = '';
+        gpu = ''
+    }
 }
 
 else if (browserUnderTest === 'firefox'){
     path = '/';
     maxInstances = 1
+    if(headless){
+        headless = '-headless';
+    }
+
+    else {
+        headless = '';
+    }
 }
 
 exports.config = {
@@ -83,11 +100,11 @@ exports.config = {
         'goog:chromeOptions': {
             // to run chrome headless the following flags are required
             // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
-            args: ['--headless', '--disable-gpu'],
+            args: [headless, gpu],
         },
         'moz:firefoxOptions': {
             // flag to activate Firefox headless mode (see https://github.com/mozilla/geckodriver/blob/master/README.md#firefox-capabilities for more details about moz:firefoxOptions)
-            args: ['-headless']
+            args: [headless]
         }
 
 

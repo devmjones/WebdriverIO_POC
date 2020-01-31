@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9cc0cff-714a-420c-9c26-2dffa594bbbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/allure-results/16c232f8-1102-495a-b90b-bb886e8af72e-testsuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/21659a66-0805-4468-9ec8-359ae96ded69-testsuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/8ae54d34-81da-4f02-8475-1d871ea16650-testsuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/94aec98a-2687-4fe2-913e-8f882d0db728-testsuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.8.3.test.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/@babel/register/.babel.7.8.3.test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -21,8 +24,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wdio.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+            <state relative-caret-position="164">
+              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/. gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -62,7 +74,6 @@
         <option value="$PROJECT_DIR$/tests/classes/Page.js" />
         <option value="$PROJECT_DIR$/tests/classes/BasePage.js" />
         <option value="$PROJECT_DIR$/tests/classes/Login.js" />
-        <option value="$PROJECT_DIR$/. gitignore" />
         <option value="$PROJECT_DIR$/tests/classes/ForgotPassword.js" />
         <option value="$PROJECT_DIR$/tests/login.test.js" />
         <option value="$PROJECT_DIR$/tests/classes/TitlePage.js" />
@@ -70,6 +81,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tests/checkTitle.test.js" />
         <option value="$PROJECT_DIR$/node_modules/webdriver/build/utils.js" />
+        <option value="$PROJECT_DIR$/. gitignore" />
         <option value="$PROJECT_DIR$/wdio.conf.js" />
       </list>
     </option>
@@ -168,7 +180,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30577000" />
+    <option name="totallyTimeSpent" value="31559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="584" y="23" width="1095" height="899" extended-state="0" />
@@ -236,13 +248,6 @@
     <entry file="file://$PROJECT_DIR$/tests/checkTitle.test.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/. gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4" />
@@ -262,10 +267,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/. gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wdio.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="89" column="31" lean-forward="true" selection-start-line="89" selection-start-column="31" selection-end-line="89" selection-end-column="31" />
+        <state relative-caret-position="164">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
         </state>
       </provider>
     </entry>
