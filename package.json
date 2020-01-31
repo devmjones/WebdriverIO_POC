@@ -29,9 +29,8 @@
     "selenium-assistant": "^6.0.0",
     "wdio-allure-reporter": "^0.8.3",
     "wdio-chromedriver-service": "^5.0.2",
-    "wdio-geckodriver-service": "^1.0.3"
-  },
-  "dependencies": {
+    "wdio-geckodriver-service": "^1.0.3",
     "webdriver-manager": "^12.1.7"
-  }
+  },
+  "dependencies": {}
 }

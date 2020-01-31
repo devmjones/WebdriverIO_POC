@@ -2,347 +2,85 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9cc0cff-714a-420c-9c26-2dffa594bbbf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/cli/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/core/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/generator/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/helpers/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/plugin-transform-parameters/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/preset-env/.CONTRIBUTING 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/preset-env/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@babel/traverse/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/bin/allure 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/bin/.allure 2.bat.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/bin/allure 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/config/.allure 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/config/.allure-cucumber 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/config/.allure-junit 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/allure-commandline-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/allure-generator-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/allure-model-2.9.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/allure-plugin-api-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/allure1-model-1.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/commons-beanutils-1.9.3 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/commons-codec-1.11 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/commons-collections-3.2.2 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/commons-collections4-4.2 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/commons-io-2.6 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/commons-lang3-3.8.1 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/commons-logging-1.2 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/commons-text-1.3 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/config/.jetty-logging 2.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/config/.log4j 2.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/flexmark-0.40.16 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/flexmark-util-0.40.16 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/freemarker-2.3.28 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/httpclient-4.5.7 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/httpcore-4.4.11 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jackson-annotations-2.9.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jackson-core-2.9.8 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jackson-databind-2.9.8 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jackson-dataformat-xml-2.9.8 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jackson-dataformat-yaml-2.9.8 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jackson-module-jaxb-annotations-2.9.8 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/javax.activation-api-1.2.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/javax.servlet-api-3.1.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jaxb-api-2.3.1 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jaxb-utils-1.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jcommander-1.72 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jetty-http-9.4.14.v20181114 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jetty-io-9.4.14.v20181114 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jetty-server-9.4.14.v20181114 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/jetty-util-9.4.14.v20181114 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/log4j-1.2.17 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/opencsv-4.5 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/properties-2.0.RC5 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/slf4j-api-1.7.25 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/slf4j-log4j12-1.7.25 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/snakeyaml-1.23 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/stax2-api-3.1.4 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/tika-core-1.20 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/lib/woodstox-core-5.0.3 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/README 2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/behaviors-plugin/.allure-plugin 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/behaviors-plugin/behaviors-plugin-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/behaviors-plugin/static/index 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/custom-logo-plugin/.allure-plugin 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/custom-logo-plugin/custom-logo-plugin-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/custom-logo-plugin/static/.styles 2.css.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/custom-logo-plugin/static/custom-logo 2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/jira-plugin/.allure-plugin 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/jira-plugin/jira-plugin-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/jira-plugin/lib/allure-jira-commons-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/jira-plugin/lib/converter-jackson-2.5.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/jira-plugin/lib/jackson-annotations-2.9.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/jira-plugin/lib/jackson-core-2.9.8 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/jira-plugin/lib/jackson-databind-2.9.8 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/jira-plugin/lib/okhttp-3.12.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/jira-plugin/lib/okio-1.15.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/jira-plugin/lib/retrofit-2.5.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/junit-xml-plugin/.allure-plugin 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/junit-xml-plugin/junit-xml-plugin-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/packages-plugin/.allure-plugin 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/packages-plugin/packages-plugin-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/packages-plugin/static/index 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/screen-diff-plugin/.allure-plugin 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/screen-diff-plugin/screen-diff-plugin-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/screen-diff-plugin/static/.styles 2.css.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/screen-diff-plugin/static/index 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/trx-plugin/.allure-plugin 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/trx-plugin/trx-plugin-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xctest-plugin/.allure-plugin 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xctest-plugin/lib/xmlwise-1.2.11 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xctest-plugin/xctest-plugin-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xray-plugin/.allure-plugin 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xray-plugin/lib/allure-jira-commons-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xray-plugin/lib/converter-jackson-2.5.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xray-plugin/lib/jackson-annotations-2.9.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xray-plugin/lib/jackson-core-2.9.8 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xray-plugin/lib/jackson-databind-2.9.8 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xray-plugin/lib/okhttp-3.12.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xray-plugin/lib/okio-1.15.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xray-plugin/lib/retrofit-2.5.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xray-plugin/xray-plugin-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xunit-xml-plugin/.allure-plugin 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/dist/plugins/xunit-xml-plugin/xunit-xml-plugin-2.13.0 2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/index 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-commandline/package 2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/..travis 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/allure-js-commons/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/arrify/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/assertion-error/.History 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/assertion-error/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/babel-runtime/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/caniuse-lite/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chai/.CODE_OF_CONDUCT 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chai/.CONTRIBUTING 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chai/.History 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chai/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chai/.ReleaseNotes 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/check-error/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chromedriver/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/build/.Gruntfile 2.ls.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/build/.build 2.ls.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/client/.core.min.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/client/.library.min.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/core-js/client/.shim.min.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/deep-eql/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/del/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dmg/.HISTORY 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dmg/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dmg/test/fixtures/.test 2.dmg.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/electron-to-chromium/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/file-type/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fs-extra/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-func-name/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/globby/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/https-proxy-agent/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/immediate/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/imurmurhash/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-path-cwd/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-path-in-cwd/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/is-path-inside/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/.CHANGES 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/.LICENSE 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/.NOTICE 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/js2xmlparser/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jszip/..codeclimate 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jszip/..travis 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jszip/.CHANGES 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jszip/.LICENSE 2.markdown.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jszip/.README 2.markdown.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/..travis 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/.CONTRIBUTING 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/.github/.ISSUE_TEMPLATE 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/.github/.PULL_REQUEST_TEMPLATE 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/mime/src/.README_js 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-localstorage/..coveralls 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-localstorage/..travis 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-localstorage/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/node-localstorage/test/.test 2.html.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pako/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pako/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pathval/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pathval/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/q/.CHANGES 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/q/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/regenerator-runtime/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sauce-connect-launcher/..travis 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sauce-connect-launcher/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sauce-connect-launcher/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sauce-connect-launcher/.appveyor 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-assistant/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-assistant/node_modules/ansi-styles/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-assistant/node_modules/chalk/.index.js 2.flow.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-assistant/node_modules/chalk/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-assistant/node_modules/semver/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-assistant/node_modules/semver/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-assistant/node_modules/semver/.range 2.bnf.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-assistant/node_modules/supports-color/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-webdriver/.CHANGES 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/selenium-webdriver/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/set-immediate-shim/.readme 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/slide/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/type-detect/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/..travis 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/.babelrc 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/.editorconfig 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/.eslintrc 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/LICENSE 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/build/reporter 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/build/utils 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/docs/images/browser 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/docs/images/generatedReport 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/docs/images/jenkins-config 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/docs/images/jenkins-results 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/lib/reporter 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/lib/utils 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/package 2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/.eslintrc 2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/.mocha 2.opts.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/.index 2.html.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/.style 2.css.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/features/.broken 2.feature.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/features/.failing 2.feature.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/features/.passing 2.feature.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/features/.withPending 2.feature.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/features/.withPendingScenario 2.feature.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/features/steps/hooks 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/features/steps/passing-steps 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/after-all-failing 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/after-all-passing 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/after-each-failing 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/argument 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/before-all-failing 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/before-all-passing 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/before-each-failing 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/broken 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/create-attachment 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/description 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/environment 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/failing 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/feature 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/issue 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/long-test-one 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/long-test-two 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/nested-suite 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/passing 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/pending 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/pending-without-function 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/screenshot 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/screenshot-after 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/screenshot-after-each 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/screenshot-before-all 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/screenshot-before-each 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/several-pendings 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/severity 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/step 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/step-failed 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/story 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/test-case-multi-browser 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/testId 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/specs/two-passing-in-one-suite 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/wdio.conf/wdio-multi-browser.conf 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/wdio.conf/wdio-multi-remote.conf 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/wdio.conf/wdio.conf 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/wdio.conf/wdio.conf.cucumber 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/wdio.conf/wdio.conf.cucumber.step 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/wdio.conf/wdio.conf.jasmine 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/wdio.conf/wdio.conf.mocha 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/wdio.conf/wdio.conf.mocha.noinfo 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/fixtures/wdio.conf/wdio.conf.mocha.noscr 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/helper 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/resources/.allure 2.properties.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/resources/image 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/after 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/argument 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/before 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/create-attachment 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/cucumber-step-test-case 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/cucumber-test-case 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/description 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/environment 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/feature 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/issue 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/jasmine-suite 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/jasmine-test-case 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/parallel 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/screenshot 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/severity 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/step 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/story 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/suite 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/test-case 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/test-case-multi-browser 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/test-case-multi-remote 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/test-case-pending 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/testId 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/unit 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/wdio-allure-reporter/test/specs/utils.spec 2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/.CHANGELOG 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/.CONTRIBUTING 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/.circleci/.config 2.yml.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/.cli_instance.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/.config.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/.http_utils.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/.utils.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/.webdriver.d 2.ts.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/.webdriver.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.android_sdk.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.appium.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.binary.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.chrome_driver.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.chrome_xml.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.config_source.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.gecko_driver.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.gecko_driver_github.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.iedriver.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.iedriver_xml.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.index.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.standalone.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/.standalone_xml.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/.cli.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/.index.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/.logger.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/.options.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/.programs.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/.clean.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/.index.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/.initialize.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/.opts.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/.shutdown.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/.start.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/.status.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/.update.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/.version.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/.downloaded_binary.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/.downloader.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/.file_manager.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/.index.js 2.map.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/docs/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/docs/.mobile 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/docs/.protractor 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/docs/.versions 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/write-file-atomic/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/.CHANGES 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/.LICENSE 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/.NOTICE 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/xmlcreate/.README 2.md.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock 2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/LICENSE 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/bin/webdriver-manager 2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/config 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/android_sdk 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/android_sdk.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/appium 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/appium.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/binary 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/binary.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/chrome_driver 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/chrome_driver.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/chrome_xml 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/chrome_xml.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/config_source 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/config_source.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/gecko_driver 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/gecko_driver.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/gecko_driver_github 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/gecko_driver_github.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/iedriver 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/iedriver.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/iedriver_xml 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/iedriver_xml.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/index.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/standalone 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/standalone.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/standalone_xml 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/binaries/standalone_xml.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/cli 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/cli.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/index.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/logger 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/logger.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/options 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/options.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/programs 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli/programs.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli_instance 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cli_instance.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/clean 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/clean.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/index.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/initialize 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/initialize.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/opts 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/opts.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/shutdown 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/shutdown.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/start 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/start.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/status 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/status.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/update 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/update.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/version 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/cmds/version.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/config 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/config.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/downloaded_binary 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/downloaded_binary.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/downloader 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/downloader.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/file_manager 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/file_manager.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/index 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/files/index.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/http_utils 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/http_utils.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/utils 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/utils.d 2.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/lib/webdriver 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/built/package 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/config 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/gulpfile 2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/webdriver-manager/package 2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wdio.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/wdio.conf.js" afterDir="false" />
     </list>
@@ -361,17 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wdio.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="172" column="18" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+            <state relative-caret-position="-451">
+              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -409,8 +138,8 @@
         <option value="$PROJECT_DIR$/tests/classes/Title.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/tests/checkTitle.test.js" />
-        <option value="$PROJECT_DIR$/wdio.conf.js" />
         <option value="$PROJECT_DIR$/node_modules/webdriver/build/utils.js" />
+        <option value="$PROJECT_DIR$/wdio.conf.js" />
       </list>
     </option>
   </component>
@@ -508,7 +237,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26830000" />
+    <option name="totallyTimeSpent" value="27776000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="584" y="23" width="1095" height="899" extended-state="0" />
@@ -590,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+        <state relative-caret-position="395">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -604,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wdio.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="172" column="18" selection-start-line="172" selection-start-column="18" selection-end-line="172" selection-end-column="18" />
+        <state relative-caret-position="-451">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
