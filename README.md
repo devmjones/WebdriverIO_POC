@@ -24,6 +24,8 @@ To start a geckodriver instance: ./geckodriver --port 4444
 
 To generate an Allure report and view in browser: npm run report
 
+To set a breakpoint for debugging: browser.debug() 
+
 ## Installation
 
 Clone repo

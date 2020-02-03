@@ -26,6 +26,7 @@
     "chai": "^4.2.0",
     "chromedriver": "^79.0.0",
     "geckodriver": "^1.19.1",
+    "prettier": "1.19.1",
     "selenium-assistant": "^6.0.0",
     "wdio-allure-reporter": "^0.8.3",
     "wdio-chromedriver-service": "^5.0.2",

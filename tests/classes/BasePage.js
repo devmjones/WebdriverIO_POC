@@ -1,7 +1,7 @@
-class BasePage{
-    open(path){
+class BasePage {
+  open(path) {
     browser.url(path);
-    }
+  }
 }
 
 export default BasePage;
