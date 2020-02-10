@@ -3,30 +3,30 @@ let baseAppUrl =
     ? "https://webdriver.io/"
     : "http://beta.webdriver.io/";
 
-let browserUnderTest = process.env.BROWSER;
-let headless = process.env.HEADLESS;
-let gpu = "--disable-gpu";
+let browserUnderTest = process.env.BROWSER || "chrome";
+// let headless; // = process.env.HEADLESS;
 let path;
 let maxInstances;
+/// let gpu;
 
 if (browserUnderTest === "chrome") {
   path = "/wd/hub";
   maxInstances = 5;
-  if (headless) {
-    headless = "-headless";
-    gpu = "--disable-gpu";
-  } else {
-    headless = "";
-    gpu = "";
-  }
+  // if (headless) {
+  //   headless = "-headless";
+  //   gpu = "--disable-gpu";
+  // } else {
+  //   headless = "";
+  //   gpu = "";
+  // }
 } else if (browserUnderTest === "firefox") {
   path = "/";
-  maxInstances = 1;
-  if (headless) {
-    headless = "-headless";
-  } else {
-    headless = "";
-  }
+  maxInstances = 3;
+  // if (headless) {
+  //   headless = "-headless";
+  // } else {
+  //   headless = "";
+  // }
 }
 
 exports.config = {
@@ -87,16 +87,16 @@ exports.config = {
       // maxInstances can get overwritten per capability. So if you have an in-house Selenium
       // grid with only 5 firefox instances available you can make sure that not more than
       // 5 instances get started at a time.
-      maxInstances: 5,
+      maxInstances: maxInstances,
       browserName: browserUnderTest,
       "goog:chromeOptions": {
         // to run chrome headless the following flags are required
         // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
-        args: [headless, gpu]
+        //args: [headless, gpu]
       },
       "moz:firefoxOptions": {
         // flag to activate Firefox headless mode (see https://github.com/mozilla/geckodriver/blob/master/README.md#firefox-capabilities for more details about moz:firefoxOptions)
-        args: [headless]
+       // args: [headless]
       }
 
       // If outputDir is provided WebdriverIO can capture driver session logs
@@ -188,8 +188,8 @@ exports.config = {
       "allure",
       {
         outputDir: "allure-results",
-        disableWebdriverStepsReporting: true,
-        disableWebdriverScreenshotsReporting: true
+        disableWebdriverStepsReporting: false,
+        disableWebdriverScreenshotsReporting: false
       }
     ]
   ],
