@@ -1,16 +1,18 @@
 const CustomReporter = require('./reporter/my.custom.reporter.js').default;
 
+// Logic for passing in env at command line
 let baseAppUrl =
   process.env.PROD === "true"
     ? "https://webdriver.io/"
     : "http://beta.webdriver.io/";
 
+// Browser config logic
 let browserUnderTest = process.env.BROWSER || "chrome";
 let headless = process.env.HEADLESS;
 let path;
 let maxInstances;
-const args = [];
-/// let gpu;
+const args = []; // browser config args
+
 
 if (browserUnderTest === "chrome") {
   path = "/wd/hub";

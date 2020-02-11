@@ -1,7 +1,10 @@
 import { expect } from "chai";
 import Login from "./classes/Login";
 
-describe("Login Form", () => {
+describe("Login Form", function()  {
+  // Will re-run failed tests up to 2x (1 actual run, 2 retries)
+  this.retries(2);
+
   beforeEach(() => {
     Login.open();
   });
@@ -11,7 +14,6 @@ describe("Login Form", () => {
     Login.password.addValue("baaaaarrrrrr");
 
     // can us browser.debug() to set breakpoints
-    // browser.debug();
 
     Login.submit.click();
     Login.error.waitForDisplayed();
