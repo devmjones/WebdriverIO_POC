@@ -12,7 +12,7 @@ class Login extends BasePage {
   }
 
   get submit() {
-    return $('[type="submit"]');
+    return $("[type='submit']");
   }
 
   get error() {

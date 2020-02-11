@@ -58,7 +58,8 @@ exports.config = {
 
   suites: {
     Login: ["./tests/login.test.js"], // can also do by dir:  /tests/Basic/*
-    Title: ["./tests/checkTitle.test.js"]
+    Title: ["./tests/checkTitle.test.js"],
+    Password: ["./tests/newPass.test.js"]
   },
   //
   // ============
@@ -235,6 +236,9 @@ exports.config = {
    */
   before: function() {
     require("@babel/register");
+    const chai = require('chai')
+    global.expect = chai.expect
+    chai.Should()
   },
   /**
    * Runs before a WebdriverIO command gets executed.

@@ -1,4 +1,3 @@
-import { expect } from "chai";
 import Login from "./classes/Login";
 
 describe("Login Form", function()  {
