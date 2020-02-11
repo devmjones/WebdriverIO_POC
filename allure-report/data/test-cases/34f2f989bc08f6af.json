@@ -1,0 +1,165 @@
+{
+  "uid" : "34f2f989bc08f6af",
+  "name" : "short should show error: Must be at least 8 characters long.",
+  "fullName" : "Password input validation.short should show error: Must be at least 8 characters long.",
+  "historyId" : "e56ee15a97725b14f0bd712c7cd256d1",
+  "time" : {
+    "start" : 1581377355154,
+    "stop" : 1581377355886,
+    "duration" : 732
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+  "statusTrace" : "Error: Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n                    at Context.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/passValidation.test.js:41:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+    "statusTrace" : "Error: Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n                    at Context.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/passValidation.test.js:41:15)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1581377355155,
+        "stop" : 1581377355876,
+        "duration" : 721
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7868bd4ab8a8595e",
+        "name" : "Request",
+        "source" : "7868bd4ab8a8595e.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1581377355876,
+        "stop" : 1581377355883,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "69f58e60138d7cf0",
+        "name" : "Request",
+        "source" : "69f58e60138d7cf0.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "70700a7aa74541f",
+        "name" : "Response",
+        "source" : "70700a7aa74541f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "short should show error: Must be at least 8 characters long."
+  }, {
+    "name" : "package",
+    "value" : "Password input validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fef864476851fdb9",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377354639,
+        "stop" : 0,
+        "duration" : -1581377354639
+      }
+    }, {
+      "uid" : "b54c7529b1652e5b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377352524,
+        "stop" : 0,
+        "duration" : -1581377352524
+      }
+    }, {
+      "uid" : "aefe5205de4e078e",
+      "status" : "broken",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1581377306834,
+        "stop" : 1581377307208,
+        "duration" : 374
+      }
+    }, {
+      "uid" : "498785899e2b82ae",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377306493,
+        "stop" : 0,
+        "duration" : -1581377306493
+      }
+    }, {
+      "uid" : "5ae5f260acaed130",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377303410,
+        "stop" : 0,
+        "duration" : -1581377303410
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "34f2f989bc08f6af.json",
+  "parameterValues" : [ "chrome" ]
+}

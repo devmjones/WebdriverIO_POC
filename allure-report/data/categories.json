@@ -7,7 +7,7 @@
       "name" : "expected 'WebdriverIO · Next-gen WebDriver test framework for Node.js' to not equal 'WebdriverIO · Next-gen WebDriver test framework for Node.js'",
       "children" : [ {
         "name" : "should fail so hard",
-        "uid" : "c4b7114a4458b9cd",
+        "uid" : "350d3c4ed7b4606f",
         "parentUid" : "eb338c7a335645ced8d1977dea9e241e",
         "status" : "failed",
         "time" : {
@@ -22,5 +22,91 @@
       "uid" : "eb338c7a335645ced8d1977dea9e241e"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "children" : [ {
+        "name" : "short should show error: Must be at least 8 characters long.",
+        "uid" : "34f2f989bc08f6af",
+        "parentUid" : "74d56a9e24ae79724a32acc5d505d014",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581377355154,
+          "stop" : 1581377355886,
+          "duration" : 732
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "NOLOWERCASE should show error: Must contain a lowercase letter.",
+        "uid" : "a6576c3360387a82",
+        "parentUid" : "74d56a9e24ae79724a32acc5d505d014",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581377357015,
+          "stop" : 1581377357617,
+          "duration" : 602
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "nottooshort should show error: Must contain an uppercase letter.",
+        "uid" : "eefff67e9f64d518",
+        "parentUid" : "74d56a9e24ae79724a32acc5d505d014",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581377358656,
+          "stop" : 1581377359119,
+          "duration" : 463
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "Nottooshort should show error: Must contain a number or special character.",
+        "uid" : "92b8ec30812fe4e9",
+        "parentUid" : "74d56a9e24ae79724a32acc5d505d014",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581377360433,
+          "stop" : 1581377361133,
+          "duration" : 700
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "N0tt00sh0rt should pass validation",
+        "uid" : "4ac89a4e4cbb854",
+        "parentUid" : "74d56a9e24ae79724a32acc5d505d014",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581377362008,
+          "stop" : 1581377362427,
+          "duration" : 419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      }, {
+        "name" : "Spec!alchar should pass validation",
+        "uid" : "a8c114571c4f03cc",
+        "parentUid" : "74d56a9e24ae79724a32acc5d505d014",
+        "status" : "broken",
+        "time" : {
+          "start" : 1581377363340,
+          "stop" : 1581377363891,
+          "duration" : 551
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome" ]
+      } ],
+      "uid" : "74d56a9e24ae79724a32acc5d505d014"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

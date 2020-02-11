@@ -1,0 +1,114 @@
+{
+  "uid" : "b0205db3a6ebdc0e",
+  "name" : "nottooshort should show error: Must contain an uppercase letter.",
+  "fullName" : "Password input validation.nottooshort should show error: Must contain an uppercase letter.",
+  "historyId" : "c48eba682ee35c1bb810e76e2fe9e23c",
+  "time" : {
+    "start" : 1581377308359,
+    "stop" : 0,
+    "duration" : -1581377308359
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "unknown",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1581377308360,
+        "stop" : 1581377308735,
+        "duration" : 375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c99d32e4ca80f37d",
+        "name" : "Request",
+        "source" : "c99d32e4ca80f37d.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1581377308735,
+        "stop" : 1581377308762,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "28e01643c7fc1da7",
+        "name" : "Request",
+        "source" : "28e01643c7fc1da7.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "da4add133fd9795a",
+        "name" : "Response",
+        "source" : "da4add133fd9795a.json",
+        "type" : "application/json",
+        "size" : 1850
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "nottooshort should show error: Must contain an uppercase letter."
+  }, {
+    "name" : "package",
+    "value" : "Password input validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b0205db3a6ebdc0e.json",
+  "parameterValues" : [ "chrome" ]
+}

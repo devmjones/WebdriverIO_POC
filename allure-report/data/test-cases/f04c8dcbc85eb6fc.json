@@ -1,0 +1,154 @@
+{
+  "uid" : "f04c8dcbc85eb6fc",
+  "name" : "should not allow login with invalid username",
+  "fullName" : "Login Form.should not allow login with invalid username",
+  "historyId" : "3ab534643c56b2447e6bb9e5fb9bce59",
+  "time" : {
+    "start" : 1581365386111,
+    "stop" : 0,
+    "duration" : -1581365386111
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login Form"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow login with invalid username"
+  }, {
+    "name" : "package",
+    "value" : "Login Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-19.2.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64c4922480fa931f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581365017213,
+        "stop" : 0,
+        "duration" : -1581365017213
+      }
+    }, {
+      "uid" : "b3f0813d0c6e8c98",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581364521379,
+        "stop" : 0,
+        "duration" : -1581364521379
+      }
+    }, {
+      "uid" : "e33a52b21d9e9be3",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580508186101,
+        "stop" : 0,
+        "duration" : -1580508186101
+      }
+    }, {
+      "uid" : "85ee0964adb553da",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580508152646,
+        "stop" : 0,
+        "duration" : -1580508152646
+      }
+    }, {
+      "uid" : "bda5a565ddacff14",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580508116856,
+        "stop" : 0,
+        "duration" : -1580508116856
+      }
+    }, {
+      "uid" : "6293e3aef45e6519",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580507911925,
+        "stop" : 0,
+        "duration" : -1580507911925
+      }
+    }, {
+      "uid" : "9129120105efd17",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580507761397,
+        "stop" : 0,
+        "duration" : -1580507761397
+      }
+    }, {
+      "uid" : "2a5061239353aa5d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580507040817,
+        "stop" : 0,
+        "duration" : -1580507040817
+      }
+    }, {
+      "uid" : "d9f74dbfa1a86f96",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580506899763,
+        "stop" : 0,
+        "duration" : -1580506899763
+      }
+    }, {
+      "uid" : "82421331013fec11",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580506831734,
+        "stop" : 0,
+        "duration" : -1580506831734
+      }
+    }, {
+      "uid" : "c4d03ad64aa8dca7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580506444910,
+        "stop" : 0,
+        "duration" : -1580506444910
+      }
+    }, {
+      "uid" : "471b7ff4d348ff6b",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580502909646,
+        "stop" : 0,
+        "duration" : -1580502909646
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f04c8dcbc85eb6fc.json",
+  "parameterValues" : [ "firefox-19.2.0" ]
+}

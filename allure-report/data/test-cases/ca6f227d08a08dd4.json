@@ -1,0 +1,114 @@
+{
+  "uid" : "ca6f227d08a08dd4",
+  "name" : "NOLOWERCASE should show error: Must contain a lowercase letter.",
+  "fullName" : "Password input validation.NOLOWERCASE should show error: Must contain a lowercase letter.",
+  "historyId" : "429ebb2221194bfd963c3c9c60b41acb",
+  "time" : {
+    "start" : 1581377307543,
+    "stop" : 0,
+    "duration" : -1581377307543
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "unknown",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1581377307543,
+        "stop" : 1581377307932,
+        "duration" : 389
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3ce62d90b2695958",
+        "name" : "Request",
+        "source" : "3ce62d90b2695958.json",
+        "type" : "application/json",
+        "size" : 40
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1581377307932,
+        "stop" : 1581377307939,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d51f73e8780277f7",
+        "name" : "Request",
+        "source" : "d51f73e8780277f7.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "34c44ffee8c5e61d",
+        "name" : "Response",
+        "source" : "34c44ffee8c5e61d.json",
+        "type" : "application/json",
+        "size" : 1850
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "NOLOWERCASE should show error: Must contain a lowercase letter."
+  }, {
+    "name" : "package",
+    "value" : "Password input validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca6f227d08a08dd4.json",
+  "parameterValues" : [ "chrome" ]
+}

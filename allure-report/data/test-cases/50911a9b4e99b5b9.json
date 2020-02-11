@@ -1,0 +1,114 @@
+{
+  "uid" : "50911a9b4e99b5b9",
+  "name" : "Nottooshort should show error: Must contain a number or special character.",
+  "fullName" : "Password input validation.Nottooshort should show error: Must contain a number or special character.",
+  "historyId" : "f7182b72bf776e1385e0ef7eac7972dc",
+  "time" : {
+    "start" : 1581377359119,
+    "stop" : 0,
+    "duration" : -1581377359119
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "unknown",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1581377359120,
+        "stop" : 1581377359812,
+        "duration" : 692
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "41c2e8960407d901",
+        "name" : "Request",
+        "source" : "41c2e8960407d901.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1581377359812,
+        "stop" : 1581377359819,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4d36101b1bdfb5d2",
+        "name" : "Request",
+        "source" : "4d36101b1bdfb5d2.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "c822a926592c8dbe",
+        "name" : "Response",
+        "source" : "c822a926592c8dbe.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Nottooshort should show error: Must contain a number or special character."
+  }, {
+    "name" : "package",
+    "value" : "Password input validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50911a9b4e99b5b9.json",
+  "parameterValues" : [ "chrome" ]
+}

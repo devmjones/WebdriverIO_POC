@@ -1,0 +1,165 @@
+{
+  "uid" : "a6576c3360387a82",
+  "name" : "NOLOWERCASE should show error: Must contain a lowercase letter.",
+  "fullName" : "Password input validation.NOLOWERCASE should show error: Must contain a lowercase letter.",
+  "historyId" : "429ebb2221194bfd963c3c9c60b41acb",
+  "time" : {
+    "start" : 1581377357015,
+    "stop" : 1581377357617,
+    "duration" : 602
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+  "statusTrace" : "Error: Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n                    at Context.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/passValidation.test.js:41:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+    "statusTrace" : "Error: Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n                    at Context.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/passValidation.test.js:41:15)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1581377357015,
+        "stop" : 1581377357608,
+        "duration" : 593
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3654fa84b1b23c6f",
+        "name" : "Request",
+        "source" : "3654fa84b1b23c6f.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1581377357608,
+        "stop" : 1581377357615,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "80871e13736a0016",
+        "name" : "Request",
+        "source" : "80871e13736a0016.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "3a4654890049f9f6",
+        "name" : "Response",
+        "source" : "3a4654890049f9f6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "NOLOWERCASE should show error: Must contain a lowercase letter."
+  }, {
+    "name" : "package",
+    "value" : "Password input validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1df2eac85f39608f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377356575,
+        "stop" : 0,
+        "duration" : -1581377356575
+      }
+    }, {
+      "uid" : "4ed5afc272554860",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377355886,
+        "stop" : 0,
+        "duration" : -1581377355886
+      }
+    }, {
+      "uid" : "54a9cb9602b46bd4",
+      "status" : "broken",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1581377307941,
+        "stop" : 1581377308359,
+        "duration" : 418
+      }
+    }, {
+      "uid" : "ca6f227d08a08dd4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377307543,
+        "stop" : 0,
+        "duration" : -1581377307543
+      }
+    }, {
+      "uid" : "3bf2ada3a8bd3f94",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377307209,
+        "stop" : 0,
+        "duration" : -1581377307209
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a6576c3360387a82.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,165 @@
+{
+  "uid" : "a8c114571c4f03cc",
+  "name" : "Spec!alchar should pass validation",
+  "fullName" : "Password input validation.Spec!alchar should pass validation",
+  "historyId" : "ac56f65c70e82eccaa6208618de4c47e",
+  "time" : {
+    "start" : 1581377363340,
+    "stop" : 1581377363891,
+    "duration" : 551
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+  "statusTrace" : "Error: Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n                    at Context.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/passValidation.test.js:41:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+    "statusTrace" : "Error: Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n                    at Context.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/passValidation.test.js:41:15)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1581377363340,
+        "stop" : 1581377363882,
+        "duration" : 542
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8fb2e975739d89d",
+        "name" : "Request",
+        "source" : "d8fb2e975739d89d.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1581377363883,
+        "stop" : 1581377363889,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f274e64c095475cb",
+        "name" : "Request",
+        "source" : "f274e64c095475cb.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "c5a31eaca1d74fd0",
+        "name" : "Response",
+        "source" : "c5a31eaca1d74fd0.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "Spec!alchar should pass validation"
+  }, {
+    "name" : "package",
+    "value" : "Password input validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "10c438bacbba0264",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377363001,
+        "stop" : 0,
+        "duration" : -1581377363001
+      }
+    }, {
+      "uid" : "41272bf1594dec31",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377362427,
+        "stop" : 0,
+        "duration" : -1581377362427
+      }
+    }, {
+      "uid" : "d87dab310d911abc",
+      "status" : "broken",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1581377312568,
+        "stop" : 1581377312943,
+        "duration" : 375
+      }
+    }, {
+      "uid" : "457d9b4f8e601ae6",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377312137,
+        "stop" : 0,
+        "duration" : -1581377312137
+      }
+    }, {
+      "uid" : "3a5468da0a778df6",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377311768,
+        "stop" : 0,
+        "duration" : -1581377311768
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a8c114571c4f03cc.json",
+  "parameterValues" : [ "chrome" ]
+}

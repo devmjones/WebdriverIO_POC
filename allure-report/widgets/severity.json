@@ -1,25 +1,15 @@
 [ {
-  "uid" : "a9d2b95aadab7652",
-  "name" : "\"before all\" hook",
-  "time" : {
-    "start" : 1579810648427,
-    "stop" : 1579810648428,
-    "duration" : 1
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "58a8372252559475",
+  "uid" : "9f0a0ae43e24d7bb",
   "name" : "\"before each\" hook",
   "time" : {
-    "start" : 1579810650365,
-    "stop" : 1579810650924,
-    "duration" : 559
+    "start" : 1581365393113,
+    "stop" : 1581365394017,
+    "duration" : 904
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c4b7114a4458b9cd",
+  "uid" : "350d3c4ed7b4606f",
   "name" : "should fail so hard",
   "time" : {
     "start" : 1579747029657,
@@ -29,37 +19,27 @@
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "e8817059187cf421",
+  "uid" : "2323663c3d9737c0",
   "name" : "\"before each\" hook",
   "time" : {
-    "start" : 1579818152522,
-    "stop" : 1579818153281,
-    "duration" : 759
+    "start" : 1579810650365,
+    "stop" : 1579810650924,
+    "duration" : 559
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e6cb129e1dbd222d",
-  "name" : "should skip test",
+  "uid" : "a8c114571c4f03cc",
+  "name" : "Spec!alchar should pass validation",
   "time" : {
-    "start" : 1579747002922,
-    "stop" : 1579747002922,
-    "duration" : 0
+    "start" : 1581377363340,
+    "stop" : 1581377363891,
+    "duration" : 551
   },
-  "status" : "skipped",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "ded556fc030c4440",
-  "name" : "should login with valid credentials",
-  "time" : {
-    "start" : 1579818152522,
-    "stop" : 0,
-    "duration" : -1579818152522
-  },
-  "status" : "unknown",
-  "severity" : "normal"
-}, {
-  "uid" : "1169b08e780bd9dd",
+  "uid" : "18f2f77d2eaa7bdb",
   "name" : "should print browser object",
   "time" : {
     "start" : 1579810650365,
@@ -69,23 +49,143 @@
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "71f3a32cd899b2cf",
-  "name" : "should have the right title",
+  "uid" : "f04c8dcbc85eb6fc",
+  "name" : "should not allow login with invalid username",
   "time" : {
-    "start" : 1579810648428,
+    "start" : 1581365386111,
     "stop" : 0,
-    "duration" : -1579810648428
+    "duration" : -1581365386111
   },
   "status" : "unknown",
   "severity" : "normal"
 }, {
-  "uid" : "2916e8fee95642ca",
-  "name" : "should not allow login with invalid username",
+  "uid" : "4ac89a4e4cbb854",
+  "name" : "N0tt00sh0rt should pass validation",
   "time" : {
-    "start" : 1579818150089,
+    "start" : 1581377362008,
+    "stop" : 1581377362427,
+    "duration" : 419
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f6bf4de4f2afbb0",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1581365231757,
+    "stop" : 1581365236009,
+    "duration" : 4252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18164a0491e2854f",
+  "name" : "should skip test",
+  "time" : {
+    "start" : 1579747002922,
+    "stop" : 1579747002922,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b7b7c3e393aba3b9",
+  "name" : "\"before each\" hook",
+  "time" : {
+    "start" : 1581446203813,
+    "stop" : 1581446204660,
+    "duration" : 847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae4f38bcafa7989d",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1581365393112,
     "stop" : 0,
-    "duration" : -1579818150089
+    "duration" : -1581365393112
   },
   "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "526482c75f62d56f",
+  "name" : "\"before all\" hook",
+  "time" : {
+    "start" : 1579810648427,
+    "stop" : 1579810648428,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92b8ec30812fe4e9",
+  "name" : "Nottooshort should show error: Must contain a number or special character.",
+  "time" : {
+    "start" : 1581377360433,
+    "stop" : 1581377361133,
+    "duration" : 700
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "74945fb7c00bbc5c",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1581446203813,
+    "stop" : 0,
+    "duration" : -1581446203813
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "33228ce1d1ca12b4",
+  "name" : "should not allow login with invalid username",
+  "time" : {
+    "start" : 1581446199234,
+    "stop" : 0,
+    "duration" : -1581446199234
+  },
+  "status" : "unknown",
+  "severity" : "normal"
+}, {
+  "uid" : "34f2f989bc08f6af",
+  "name" : "short should show error: Must be at least 8 characters long.",
+  "time" : {
+    "start" : 1581377355154,
+    "stop" : 1581377355886,
+    "duration" : 732
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a7c66ede7f7fcc5f",
+  "name" : "should have the right title",
+  "time" : {
+    "start" : 1581445483753,
+    "stop" : 1581445487836,
+    "duration" : 4083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eefff67e9f64d518",
+  "name" : "nottooshort should show error: Must contain an uppercase letter.",
+  "time" : {
+    "start" : 1581377358656,
+    "stop" : 1581377359119,
+    "duration" : 463
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a6576c3360387a82",
+  "name" : "NOLOWERCASE should show error: Must contain a lowercase letter.",
+  "time" : {
+    "start" : 1581377357015,
+    "stop" : 1581377357617,
+    "duration" : 602
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

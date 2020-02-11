@@ -1,0 +1,536 @@
+{
+  "uid" : "33228ce1d1ca12b4",
+  "name" : "should not allow login with invalid username",
+  "fullName" : "Login Form.should not allow login with invalid username",
+  "historyId" : "87d73be78c229769635ee15a205afa4a",
+  "time" : {
+    "start" : 1581446199234,
+    "stop" : 0,
+    "duration" : -1581446199234
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "unknown",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login Form"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow login with invalid username"
+  }, {
+    "name" : "package",
+    "value" : "Login Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a27fb831824da002",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581446159262,
+        "stop" : 0,
+        "duration" : -1581446159262
+      }
+    }, {
+      "uid" : "79695d3ed445d414",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581446095291,
+        "stop" : 0,
+        "duration" : -1581446095291
+      }
+    }, {
+      "uid" : "b29a6e153750d3aa",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581445986089,
+        "stop" : 0,
+        "duration" : -1581445986089
+      }
+    }, {
+      "uid" : "de82547ea375ec57",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581445852424,
+        "stop" : 0,
+        "duration" : -1581445852424
+      }
+    }, {
+      "uid" : "e3516233e1fa4160",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581445483819,
+        "stop" : 0,
+        "duration" : -1581445483819
+      }
+    }, {
+      "uid" : "a15dd57706a6e5e1",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581445192869,
+        "stop" : 0,
+        "duration" : -1581445192869
+      }
+    }, {
+      "uid" : "a4e232e2da7cf265",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581445062556,
+        "stop" : 0,
+        "duration" : -1581445062556
+      }
+    }, {
+      "uid" : "be84cbb6dc8e1410",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581392291873,
+        "stop" : 0,
+        "duration" : -1581392291873
+      }
+    }, {
+      "uid" : "57aedd4668d7a436",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581391254393,
+        "stop" : 0,
+        "duration" : -1581391254393
+      }
+    }, {
+      "uid" : "dbc0f08fb7fc7611",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581391211018,
+        "stop" : 0,
+        "duration" : -1581391211018
+      }
+    }, {
+      "uid" : "8bb7bd1a707b58f7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581391164622,
+        "stop" : 0,
+        "duration" : -1581391164622
+      }
+    }, {
+      "uid" : "e6823b5dd6af9d4c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581391031125,
+        "stop" : 0,
+        "duration" : -1581391031125
+      }
+    }, {
+      "uid" : "77524afb07864bbf",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581390814868,
+        "stop" : 0,
+        "duration" : -1581390814868
+      }
+    }, {
+      "uid" : "7453108a7e43c918",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581390440026,
+        "stop" : 0,
+        "duration" : -1581390440026
+      }
+    }, {
+      "uid" : "ba7d4d5cd6bee4f6",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581388244985,
+        "stop" : 0,
+        "duration" : -1581388244985
+      }
+    }, {
+      "uid" : "7a9bf392b739032a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581388204975,
+        "stop" : 0,
+        "duration" : -1581388204975
+      }
+    }, {
+      "uid" : "9301b447dfd2f2e8",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581387846434,
+        "stop" : 0,
+        "duration" : -1581387846434
+      }
+    }, {
+      "uid" : "311519495788e46c",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581387832713,
+        "stop" : 0,
+        "duration" : -1581387832713
+      }
+    }, {
+      "uid" : "255debdbce7bd26",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377578712,
+        "stop" : 0,
+        "duration" : -1581377578712
+      }
+    }, {
+      "uid" : "720b538d7b115e7a",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377557209,
+        "stop" : 0,
+        "duration" : -1581377557209
+      }
+    }, {
+      "uid" : "31b606932c1def37",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/devon.jones/Desktop/webdriver_io_poc/tests/login.test.js)",
+      "time" : {
+        "start" : 1581377557209,
+        "stop" : 1581377567341,
+        "duration" : 10132
+      }
+    }, {
+      "uid" : "d1923043c2dcd91d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377547052,
+        "stop" : 0,
+        "duration" : -1581377547052
+      }
+    }, {
+      "uid" : "f254c318e20438ec",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377533951,
+        "stop" : 0,
+        "duration" : -1581377533951
+      }
+    }, {
+      "uid" : "a4075e5177f0455f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581365808551,
+        "stop" : 0,
+        "duration" : -1581365808551
+      }
+    }, {
+      "uid" : "6a5e8857f4f0ac35",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581364711855,
+        "stop" : 0,
+        "duration" : -1581364711855
+      }
+    }, {
+      "uid" : "faadcaf969d7025f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581364439205,
+        "stop" : 0,
+        "duration" : -1581364439205
+      }
+    }, {
+      "uid" : "dfd4161bde440116",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581363978748,
+        "stop" : 0,
+        "duration" : -1581363978748
+      }
+    }, {
+      "uid" : "bc6f1d5abbcfcb19",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580506975937,
+        "stop" : 0,
+        "duration" : -1580506975937
+      }
+    }, {
+      "uid" : "ea46134261342efe",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580506522079,
+        "stop" : 0,
+        "duration" : -1580506522079
+      }
+    }, {
+      "uid" : "742975e10cae1c8e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580506309826,
+        "stop" : 0,
+        "duration" : -1580506309826
+      }
+    }, {
+      "uid" : "3d2ac3cfc2114547",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580504733597,
+        "stop" : 0,
+        "duration" : -1580504733597
+      }
+    }, {
+      "uid" : "bad0fd41aabcf995",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580500335790,
+        "stop" : 0,
+        "duration" : -1580500335790
+      }
+    }, {
+      "uid" : "1ea340f404dfaf9d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1580498155566,
+        "stop" : 0,
+        "duration" : -1580498155566
+      }
+    }, {
+      "uid" : "3dc800895a527750",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579885862723,
+        "stop" : 0,
+        "duration" : -1579885862723
+      }
+    }, {
+      "uid" : "288dd1d166a81ff4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579885709657,
+        "stop" : 0,
+        "duration" : -1579885709657
+      }
+    }, {
+      "uid" : "9cfed24417ca88ab",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579818150089,
+        "stop" : 0,
+        "duration" : -1579818150089
+      }
+    }, {
+      "uid" : "1a12f1327236151e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579817962280,
+        "stop" : 0,
+        "duration" : -1579817962280
+      }
+    }, {
+      "uid" : "9cc9131ecfc42b27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579816978636,
+        "stop" : 1579816983019,
+        "duration" : 4383
+      }
+    }, {
+      "uid" : "51222b2677dfe136",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579816916751,
+        "stop" : 1579816924575,
+        "duration" : 7824
+      }
+    }, {
+      "uid" : "89f6cd4d80d4e90a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579816073409,
+        "stop" : 1579816075744,
+        "duration" : 2335
+      }
+    }, {
+      "uid" : "b1fd2da7992baa3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579815821606,
+        "stop" : 1579815823931,
+        "duration" : 2325
+      }
+    }, {
+      "uid" : "4589f967af8aab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579815794889,
+        "stop" : 1579815799588,
+        "duration" : 4699
+      }
+    }, {
+      "uid" : "9faac175cb520da3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579814748047,
+        "stop" : 1579814751600,
+        "duration" : 3553
+      }
+    }, {
+      "uid" : "71e84dff21d6695",
+      "status" : "failed",
+      "statusDetails" : "object tested must be an array, a map, an object, a set, a string, or a weakset, but object given",
+      "time" : {
+        "start" : 1579814661381,
+        "stop" : 1579814662019,
+        "duration" : 638
+      }
+    }, {
+      "uid" : "d70bb50334b8ddf9",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814660690,
+        "stop" : 0,
+        "duration" : -1579814660690
+      }
+    }, {
+      "uid" : "5593cf29b3bf7a04",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814655786,
+        "stop" : 0,
+        "duration" : -1579814655786
+      }
+    }, {
+      "uid" : "17b4fa5de24ee25e",
+      "status" : "failed",
+      "statusDetails" : "object tested must be an array, a map, an object, a set, a string, or a weakset, but object given",
+      "time" : {
+        "start" : 1579814580229,
+        "stop" : 1579814580864,
+        "duration" : 635
+      }
+    }, {
+      "uid" : "1a063df4b8da3fb2",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814579078,
+        "stop" : 0,
+        "duration" : -1579814579078
+      }
+    }, {
+      "uid" : "c323227c034ae6f6",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814574550,
+        "stop" : 0,
+        "duration" : -1579814574550
+      }
+    }, {
+      "uid" : "b25d30bf85a38c02",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, elementId, ...) } to equal 'Your username is invalid!'",
+      "time" : {
+        "start" : 1579814460312,
+        "stop" : 1579814461397,
+        "duration" : 1085
+      }
+    }, {
+      "uid" : "70c0d42eb7042f8f",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814458984,
+        "stop" : 0,
+        "duration" : -1579814458984
+      }
+    }, {
+      "uid" : "837320a4e5d8ad23",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814455414,
+        "stop" : 0,
+        "duration" : -1579814455414
+      }
+    }, {
+      "uid" : "ce3d23e7a202aff1",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, elementId, ...) } to equal 'Your username is invalid!'",
+      "time" : {
+        "start" : 1579814271772,
+        "stop" : 1579814272396,
+        "duration" : 624
+      }
+    }, {
+      "uid" : "8a8522230588eac4",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814270924,
+        "stop" : 0,
+        "duration" : -1579814270924
+      }
+    }, {
+      "uid" : "c28547491df561b7",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814267808,
+        "stop" : 0,
+        "duration" : -1579814267808
+      }
+    }, {
+      "uid" : "743687f82ee5b4f0",
+      "status" : "failed",
+      "statusDetails" : "expected { Object (sessionId, elementId, ...) } to equal 'Your username is invalid!'",
+      "time" : {
+        "start" : 1579814226382,
+        "stop" : 1579814227002,
+        "duration" : 620
+      }
+    }, {
+      "uid" : "6f011eea2eb7349e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814222841,
+        "stop" : 0,
+        "duration" : -1579814222841
+      }
+    }, {
+      "uid" : "8cb3a7cd7d344618",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1579814217892,
+        "stop" : 0,
+        "duration" : -1579814217892
+      }
+    }, {
+      "uid" : "49f6d28e3a3b7e04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579810768160,
+        "stop" : 1579810769915,
+        "duration" : 1755
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33228ce1d1ca12b4.json",
+  "parameterValues" : [ "chrome" ]
+}

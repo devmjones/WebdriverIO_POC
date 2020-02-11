@@ -1,5 +1,5 @@
 {
-  "total" : 2,
+  "total" : 3,
   "items" : [ {
     "uid" : "601e7f3c0a9c957fa7f229ca6a567c98",
     "name" : "webdriver.io page",
@@ -7,8 +7,19 @@
       "failed" : 1,
       "broken" : 0,
       "skipped" : 1,
-      "passed" : 2,
-      "unknown" : 2,
+      "passed" : 4,
+      "unknown" : 1,
+      "total" : 7
+    }
+  }, {
+    "uid" : "a1641680cfa635f17fd20612f60049f4",
+    "name" : "Password input validation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 6,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
       "total" : 6
     }
   }, {
@@ -18,9 +29,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 2,
-      "total" : 3
+      "passed" : 2,
+      "unknown" : 4,
+      "total" : 6
     }
   } ]
 }

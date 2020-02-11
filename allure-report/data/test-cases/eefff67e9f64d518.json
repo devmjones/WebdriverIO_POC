@@ -1,0 +1,165 @@
+{
+  "uid" : "eefff67e9f64d518",
+  "name" : "nottooshort should show error: Must contain an uppercase letter.",
+  "fullName" : "Password input validation.nottooshort should show error: Must contain an uppercase letter.",
+  "historyId" : "c48eba682ee35c1bb810e76e2fe9e23c",
+  "time" : {
+    "start" : 1581377358656,
+    "stop" : 1581377359119,
+    "duration" : 463
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+  "statusTrace" : "Error: Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n                    at Context.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/passValidation.test.js:41:15)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+    "statusTrace" : "Error: Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                    at processTicksAndRejections (internal/process/task_queues.js:85:5)\n                    at Context.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/tests/passValidation.test.js:41:15)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1581377358656,
+        "stop" : 1581377359110,
+        "duration" : 454
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8f7c315a9e1a92b8",
+        "name" : "Request",
+        "source" : "8f7c315a9e1a92b8.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1581377359110,
+        "stop" : 1581377359117,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "51101a97b7d8eda6",
+        "name" : "Request",
+        "source" : "51101a97b7d8eda6.json",
+        "type" : "application/json",
+        "size" : 51
+      }, {
+        "uid" : "d7a653283f105b9d",
+        "name" : "Response",
+        "source" : "d7a653283f105b9d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testClass",
+    "value" : "Password input validation"
+  }, {
+    "name" : "testMethod",
+    "value" : "nottooshort should show error: Must contain an uppercase letter."
+  }, {
+    "name" : "package",
+    "value" : "Password input validation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "886bd592ac44c7cd",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377357990,
+        "stop" : 0,
+        "duration" : -1581377357990
+      }
+    }, {
+      "uid" : "28f724cac69a86a8",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377357617,
+        "stop" : 0,
+        "duration" : -1581377357617
+      }
+    }, {
+      "uid" : "d1ae66692242217",
+      "status" : "broken",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1581377309227,
+        "stop" : 1581377309564,
+        "duration" : 337
+      }
+    }, {
+      "uid" : "4459ef268270c018",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377308766,
+        "stop" : 0,
+        "duration" : -1581377308766
+      }
+    }, {
+      "uid" : "b0205db3a6ebdc0e",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581377308359,
+        "stop" : 0,
+        "duration" : -1581377308359
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "eefff67e9f64d518.json",
+  "parameterValues" : [ "chrome" ]
+}

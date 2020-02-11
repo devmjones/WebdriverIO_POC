@@ -1,20 +1,21 @@
 {
-  "f272ea613d00cb82c03e7f941d2a1dc2" : {
+  "f7182b72bf776e1385e0ef7eac7972dc" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 0,
-      "unknown" : 1,
+      "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "71f3a32cd899b2cf",
-      "status" : "unknown",
+      "uid" : "92b8ec30812fe4e9",
+      "status" : "broken",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
       "time" : {
-        "start" : 1579810648428,
-        "stop" : 0,
-        "duration" : -1579810648428
+        "start" : 1581377360433,
+        "stop" : 1581377361133,
+        "duration" : 700
       }
     } ]
   },
@@ -28,12 +29,207 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "58a8372252559475",
+      "uid" : "2323663c3d9737c0",
       "status" : "passed",
       "time" : {
         "start" : 1579810650365,
         "stop" : 1579810650924,
         "duration" : 559
+      }
+    } ]
+  },
+  "51c078eb20c66652badfe9bf8b24c532" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ac89a4e4cbb854",
+      "status" : "broken",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1581377362008,
+        "stop" : 1581377362427,
+        "duration" : 419
+      }
+    } ]
+  },
+  "e56ee15a97725b14f0bd712c7cd256d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "34f2f989bc08f6af",
+      "status" : "broken",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1581377355154,
+        "stop" : 1581377355886,
+        "duration" : 732
+      }
+    } ]
+  },
+  "edc02821bef107caf757d4d385c04eca" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "350d3c4ed7b4606f",
+      "status" : "failed",
+      "statusDetails" : "expected 'WebdriverIO · Next-gen WebDriver test framework for Node.js' to not equal 'WebdriverIO · Next-gen WebDriver test framework for Node.js'",
+      "time" : {
+        "start" : 1579747029657,
+        "stop" : 1579747030367,
+        "duration" : 710
+      }
+    } ]
+  },
+  "ee0c11ee919f070073770f6100c2ffcd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae4f38bcafa7989d",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581365393112,
+        "stop" : 0,
+        "duration" : -1581365393112
+      }
+    } ]
+  },
+  "3ab534643c56b2447e6bb9e5fb9bce59" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 1,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f04c8dcbc85eb6fc",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581365386111,
+        "stop" : 0,
+        "duration" : -1581365386111
+      }
+    } ]
+  },
+  "429ebb2221194bfd963c3c9c60b41acb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a6576c3360387a82",
+      "status" : "broken",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1581377357015,
+        "stop" : 1581377357617,
+        "duration" : 602
+      }
+    } ]
+  },
+  "ac56f65c70e82eccaa6208618de4c47e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8c114571c4f03cc",
+      "status" : "broken",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1581377363340,
+        "stop" : 1581377363891,
+        "duration" : 551
+      }
+    } ]
+  },
+  "f272ea613d00cb82c03e7f941d2a1dc2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7c66ede7f7fcc5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581445483753,
+        "stop" : 1581445487836,
+        "duration" : 4083
+      }
+    } ]
+  },
+  "a529a3c8fb01681fe7e13670c8d44163" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6bf4de4f2afbb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581365231757,
+        "stop" : 1581365236009,
+        "duration" : 4252
+      }
+    } ]
+  },
+  "578a57a190588b3f418b5151e54fdc16" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f0a0ae43e24d7bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581365393113,
+        "stop" : 1581365394017,
+        "duration" : 904
       }
     } ]
   },
@@ -47,12 +243,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2916e8fee95642ca",
+      "uid" : "33228ce1d1ca12b4",
       "status" : "unknown",
       "time" : {
-        "start" : 1579818150089,
+        "start" : 1581446199234,
         "stop" : 0,
-        "duration" : -1579818150089
+        "duration" : -1581446199234
       }
     } ]
   },
@@ -66,7 +262,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1169b08e780bd9dd",
+      "uid" : "18f2f77d2eaa7bdb",
       "status" : "unknown",
       "time" : {
         "start" : 1579810650365,
@@ -85,32 +281,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e8817059187cf421",
+      "uid" : "b7b7c3e393aba3b9",
       "status" : "passed",
       "time" : {
-        "start" : 1579818152522,
-        "stop" : 1579818153281,
-        "duration" : 759
-      }
-    } ]
-  },
-  "edc02821bef107caf757d4d385c04eca" : {
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c4b7114a4458b9cd",
-      "status" : "failed",
-      "statusDetails" : "expected 'WebdriverIO · Next-gen WebDriver test framework for Node.js' to not equal 'WebdriverIO · Next-gen WebDriver test framework for Node.js'",
-      "time" : {
-        "start" : 1579747029657,
-        "stop" : 1579747030367,
-        "duration" : 710
+        "start" : 1581446203813,
+        "stop" : 1581446204660,
+        "duration" : 847
       }
     } ]
   },
@@ -124,12 +300,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a9d2b95aadab7652",
+      "uid" : "526482c75f62d56f",
       "status" : "passed",
       "time" : {
         "start" : 1579810648427,
         "stop" : 1579810648428,
         "duration" : 1
+      }
+    } ]
+  },
+  "c48eba682ee35c1bb810e76e2fe9e23c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eefff67e9f64d518",
+      "status" : "broken",
+      "statusDetails" : "Malformed type for \"id\" parameter of command switchToFrame\n                Expected: (number|string|object|null)\n                Actual: undefined\n                \n                For more info see https://w3c.github.io/webdriver/#dfn-switch-to-frame\n                ",
+      "time" : {
+        "start" : 1581377358656,
+        "stop" : 1581377359119,
+        "duration" : 463
       }
     } ]
   },
@@ -143,7 +339,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e6cb129e1dbd222d",
+      "uid" : "18164a0491e2854f",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
@@ -163,12 +359,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ded556fc030c4440",
+      "uid" : "74945fb7c00bbc5c",
       "status" : "unknown",
       "time" : {
-        "start" : 1579818152522,
+        "start" : 1581446203813,
         "stop" : 0,
-        "duration" : -1579818152522
+        "duration" : -1581446203813
       }
     } ]
   }

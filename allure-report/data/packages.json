@@ -5,7 +5,7 @@
     "name" : "webdriver.io page",
     "children" : [ {
       "name" : "should skip test",
-      "uid" : "e6cb129e1dbd222d",
+      "uid" : "18164a0491e2854f",
       "parentUid" : "4f7d17744ecdbd5cba658ae19edb9617",
       "status" : "skipped",
       "time" : {
@@ -18,7 +18,7 @@
       "parameters" : [ ]
     }, {
       "name" : "should fail so hard",
-      "uid" : "c4b7114a4458b9cd",
+      "uid" : "350d3c4ed7b4606f",
       "parentUid" : "4f7d17744ecdbd5cba658ae19edb9617",
       "status" : "failed",
       "time" : {
@@ -31,7 +31,7 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "\"before all\" hook",
-      "uid" : "a9d2b95aadab7652",
+      "uid" : "526482c75f62d56f",
       "parentUid" : "4f7d17744ecdbd5cba658ae19edb9617",
       "status" : "passed",
       "time" : {
@@ -43,21 +43,8 @@
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
-      "name" : "should have the right title",
-      "uid" : "71f3a32cd899b2cf",
-      "parentUid" : "4f7d17744ecdbd5cba658ae19edb9617",
-      "status" : "unknown",
-      "time" : {
-        "start" : 1579810648428,
-        "stop" : 0,
-        "duration" : -1579810648428
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome" ]
-    }, {
       "name" : "should print browser object",
-      "uid" : "1169b08e780bd9dd",
+      "uid" : "18f2f77d2eaa7bdb",
       "parentUid" : "4f7d17744ecdbd5cba658ae19edb9617",
       "status" : "unknown",
       "time" : {
@@ -70,7 +57,7 @@
       "parameters" : [ "chrome" ]
     }, {
       "name" : "\"before each\" hook",
-      "uid" : "58a8372252559475",
+      "uid" : "2323663c3d9737c0",
       "parentUid" : "4f7d17744ecdbd5cba658ae19edb9617",
       "status" : "passed",
       "time" : {
@@ -81,50 +68,197 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "f6bf4de4f2afbb0",
+      "parentUid" : "4f7d17744ecdbd5cba658ae19edb9617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581365231757,
+        "stop" : 1581365236009,
+        "duration" : 4252
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-19.2.0" ]
+    }, {
+      "name" : "should have the right title",
+      "uid" : "a7c66ede7f7fcc5f",
+      "parentUid" : "4f7d17744ecdbd5cba658ae19edb9617",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581445483753,
+        "stop" : 1581445487836,
+        "duration" : 4083
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
     } ],
     "uid" : "webdriver.io page"
   }, {
     "name" : "Login Form",
     "children" : [ {
       "name" : "should not allow login with invalid username",
-      "uid" : "2916e8fee95642ca",
+      "uid" : "f04c8dcbc85eb6fc",
       "parentUid" : "8b178bf25e1f420bf8a27f917b6ff7a2",
       "status" : "unknown",
       "time" : {
-        "start" : 1579818150089,
+        "start" : 1581365386111,
         "stop" : 0,
-        "duration" : -1579818150089
+        "duration" : -1581365386111
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-19.2.0" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "ae4f38bcafa7989d",
+      "parentUid" : "8b178bf25e1f420bf8a27f917b6ff7a2",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581365393112,
+        "stop" : 0,
+        "duration" : -1581365393112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-19.2.0" ]
+    }, {
+      "name" : "\"before each\" hook",
+      "uid" : "9f0a0ae43e24d7bb",
+      "parentUid" : "8b178bf25e1f420bf8a27f917b6ff7a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581365393113,
+        "stop" : 1581365394017,
+        "duration" : 904
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "firefox-19.2.0" ]
+    }, {
+      "name" : "should not allow login with invalid username",
+      "uid" : "33228ce1d1ca12b4",
+      "parentUid" : "8b178bf25e1f420bf8a27f917b6ff7a2",
+      "status" : "unknown",
+      "time" : {
+        "start" : 1581446199234,
+        "stop" : 0,
+        "duration" : -1581446199234
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "ded556fc030c4440",
+      "uid" : "74945fb7c00bbc5c",
       "parentUid" : "8b178bf25e1f420bf8a27f917b6ff7a2",
       "status" : "unknown",
       "time" : {
-        "start" : 1579818152522,
+        "start" : 1581446203813,
         "stop" : 0,
-        "duration" : -1579818152522
+        "duration" : -1581446203813
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     }, {
       "name" : "\"before each\" hook",
-      "uid" : "e8817059187cf421",
+      "uid" : "b7b7c3e393aba3b9",
       "parentUid" : "8b178bf25e1f420bf8a27f917b6ff7a2",
       "status" : "passed",
       "time" : {
-        "start" : 1579818152522,
-        "stop" : 1579818153281,
-        "duration" : 759
+        "start" : 1581446203813,
+        "stop" : 1581446204660,
+        "duration" : 847
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome" ]
     } ],
     "uid" : "8b178bf25e1f420bf8a27f917b6ff7a2"
+  }, {
+    "name" : "Password input validation",
+    "children" : [ {
+      "name" : "short should show error: Must be at least 8 characters long.",
+      "uid" : "34f2f989bc08f6af",
+      "parentUid" : "a6f687dad98f7a9a8badd623670e4b67",
+      "status" : "broken",
+      "time" : {
+        "start" : 1581377355154,
+        "stop" : 1581377355886,
+        "duration" : 732
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "NOLOWERCASE should show error: Must contain a lowercase letter.",
+      "uid" : "a6576c3360387a82",
+      "parentUid" : "a6f687dad98f7a9a8badd623670e4b67",
+      "status" : "broken",
+      "time" : {
+        "start" : 1581377357015,
+        "stop" : 1581377357617,
+        "duration" : 602
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "nottooshort should show error: Must contain an uppercase letter.",
+      "uid" : "eefff67e9f64d518",
+      "parentUid" : "a6f687dad98f7a9a8badd623670e4b67",
+      "status" : "broken",
+      "time" : {
+        "start" : 1581377358656,
+        "stop" : 1581377359119,
+        "duration" : 463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Nottooshort should show error: Must contain a number or special character.",
+      "uid" : "92b8ec30812fe4e9",
+      "parentUid" : "a6f687dad98f7a9a8badd623670e4b67",
+      "status" : "broken",
+      "time" : {
+        "start" : 1581377360433,
+        "stop" : 1581377361133,
+        "duration" : 700
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "N0tt00sh0rt should pass validation",
+      "uid" : "4ac89a4e4cbb854",
+      "parentUid" : "a6f687dad98f7a9a8badd623670e4b67",
+      "status" : "broken",
+      "time" : {
+        "start" : 1581377362008,
+        "stop" : 1581377362427,
+        "duration" : 419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    }, {
+      "name" : "Spec!alchar should pass validation",
+      "uid" : "a8c114571c4f03cc",
+      "parentUid" : "a6f687dad98f7a9a8badd623670e4b67",
+      "status" : "broken",
+      "time" : {
+        "start" : 1581377363340,
+        "stop" : 1581377363891,
+        "duration" : 551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome" ]
+    } ],
+    "uid" : "a6f687dad98f7a9a8badd623670e4b67"
   } ]
 }

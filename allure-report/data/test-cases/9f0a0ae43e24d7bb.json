@@ -1,0 +1,258 @@
+{
+  "uid" : "9f0a0ae43e24d7bb",
+  "name" : "\"before each\" hook",
+  "fullName" : "Login Form.\"before each\" hook",
+  "historyId" : "578a57a190588b3f418b5151e54fdc16",
+  "time" : {
+    "start" : 1581365393113,
+    "stop" : 1581365394017,
+    "duration" : 904
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login Form"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before each\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "firefox-19.2.0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "87b9f11d4e6ec28d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581365386111,
+        "stop" : 1581365393112,
+        "duration" : 7001
+      }
+    }, {
+      "uid" : "f9acaaa44ad11ee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581365021147,
+        "stop" : 1581365022119,
+        "duration" : 972
+      }
+    }, {
+      "uid" : "3eea4cef096af2ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581365017213,
+        "stop" : 1581365021146,
+        "duration" : 3933
+      }
+    }, {
+      "uid" : "f2bb649fbcf09640",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581364524069,
+        "stop" : 1581364524887,
+        "duration" : 818
+      }
+    }, {
+      "uid" : "92a556d6e6c709f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1581364521379,
+        "stop" : 1581364524068,
+        "duration" : 2689
+      }
+    }, {
+      "uid" : "5e102dea0cfdc9f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580508187607,
+        "stop" : 1580508188355,
+        "duration" : 748
+      }
+    }, {
+      "uid" : "99151e2f7e97714b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580508186102,
+        "stop" : 1580508187607,
+        "duration" : 1505
+      }
+    }, {
+      "uid" : "a4bba6cdfe4efa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580508154297,
+        "stop" : 1580508155439,
+        "duration" : 1142
+      }
+    }, {
+      "uid" : "5f81882b8347968d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580508152647,
+        "stop" : 1580508154297,
+        "duration" : 1650
+      }
+    }, {
+      "uid" : "ec9d9e34e074a594",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580508118531,
+        "stop" : 1580508119299,
+        "duration" : 768
+      }
+    }, {
+      "uid" : "a9959087fa8819e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580508116857,
+        "stop" : 1580508118531,
+        "duration" : 1674
+      }
+    }, {
+      "uid" : "e1049cbf2b974c07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580507913391,
+        "stop" : 1580507914384,
+        "duration" : 993
+      }
+    }, {
+      "uid" : "ab7ab27b857a85c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580507911926,
+        "stop" : 1580507913391,
+        "duration" : 1465
+      }
+    }, {
+      "uid" : "6abb15202b988d26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580507762990,
+        "stop" : 1580507763824,
+        "duration" : 834
+      }
+    }, {
+      "uid" : "e20cfb3b178e0076",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580507761397,
+        "stop" : 1580507762990,
+        "duration" : 1593
+      }
+    }, {
+      "uid" : "62bacc04b05f4592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580507042210,
+        "stop" : 1580507042897,
+        "duration" : 687
+      }
+    }, {
+      "uid" : "7307fd8277a63a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580507040817,
+        "stop" : 1580507042210,
+        "duration" : 1393
+      }
+    }, {
+      "uid" : "3429155790cb289e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580506901322,
+        "stop" : 1580506902168,
+        "duration" : 846
+      }
+    }, {
+      "uid" : "a13b43069ba37410",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580506899763,
+        "stop" : 1580506901322,
+        "duration" : 1559
+      }
+    }, {
+      "uid" : "a7ae21e06d43b86f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580506833436,
+        "stop" : 1580506834292,
+        "duration" : 856
+      }
+    }, {
+      "uid" : "f0e6e7ed5f312907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580506831734,
+        "stop" : 1580506833436,
+        "duration" : 1702
+      }
+    }, {
+      "uid" : "aafabb13f97f687f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580506446458,
+        "stop" : 1580506447240,
+        "duration" : 782
+      }
+    }, {
+      "uid" : "b988795720e2846a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580506444910,
+        "stop" : 1580506446458,
+        "duration" : 1548
+      }
+    }, {
+      "uid" : "d3ea59401a3d759b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580502911296,
+        "stop" : 1580502912124,
+        "duration" : 828
+      }
+    }, {
+      "uid" : "7ab2e6b8dadeba76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1580502909646,
+        "stop" : 1580502911295,
+        "duration" : 1649
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f0a0ae43e24d7bb.json",
+  "parameterValues" : [ "firefox-19.2.0" ]
+}

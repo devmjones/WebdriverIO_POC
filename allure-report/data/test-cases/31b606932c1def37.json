@@ -1,0 +1,187 @@
+{
+  "uid" : "31b606932c1def37",
+  "name" : "should not allow login with invalid username",
+  "fullName" : "Login Form.should not allow login with invalid username",
+  "historyId" : "87d73be78c229769635ee15a205afa4a",
+  "time" : {
+    "start" : 1581377557209,
+    "stop" : 1581377567341,
+    "duration" : 10132
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/devon.jones/Desktop/webdriver_io_poc/tests/login.test.js)",
+  "statusTrace" : "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/devon.jones/Desktop/webdriver_io_poc/tests/login.test.js)\n                    at Test.Runnable._timeoutError (/Users/devon.jones/Desktop/webdriver_io_poc/node_modules/mocha/lib/runnable.js:455:10)\n                    at Timeout.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/node_modules/mocha/lib/runnable.js:266:24)\n                    at listOnTimeout (internal/timers.js:531:17)\n                    at processTimers (internal/timers.js:475:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/devon.jones/Desktop/webdriver_io_poc/tests/login.test.js)",
+    "statusTrace" : "Error: Timeout of 10000ms exceeded. For async tests and hooks, ensure \"done()\" is called; if returning a Promise, ensure it resolves. (/Users/devon.jones/Desktop/webdriver_io_poc/tests/login.test.js)\n                    at Test.Runnable._timeoutError (/Users/devon.jones/Desktop/webdriver_io_poc/node_modules/mocha/lib/runnable.js:455:10)\n                    at Timeout.<anonymous> (/Users/devon.jones/Desktop/webdriver_io_poc/node_modules/mocha/lib/runnable.js:266:24)\n                    at listOnTimeout (internal/timers.js:531:17)\n                    at processTimers (internal/timers.js:475:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1581377557210,
+        "stop" : 1581377557336,
+        "duration" : 126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "84237bcafe2d48f8",
+        "name" : "Request",
+        "source" : "84237bcafe2d48f8.json",
+        "type" : "application/json",
+        "size" : 55
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1581377557336,
+        "stop" : 1581377557357,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4c8f21dc16af6a1",
+        "name" : "Request",
+        "source" : "4c8f21dc16af6a1.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "1f90f4ca55bddd5d",
+        "name" : "Response",
+        "source" : "1f90f4ca55bddd5d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c2aea3c9-33ba-4a38-aa45-7dc98226b9be/value",
+      "time" : {
+        "start" : 1581377557359,
+        "stop" : 1581377557405,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1fc47997e3dc2afd",
+        "name" : "Request",
+        "source" : "1fc47997e3dc2afd.json",
+        "type" : "application/json",
+        "size" : 24
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1581377557405,
+        "stop" : 1581377557411,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "af434caa20bb80f8",
+        "name" : "Request",
+        "source" : "af434caa20bb80f8.json",
+        "type" : "application/json",
+        "size" : 53
+      }, {
+        "uid" : "2af072d269606922",
+        "name" : "Response",
+        "source" : "2af072d269606922.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/c6f9d5b1-6c34-4b1a-bf59-65bbded9051b/value",
+      "time" : {
+        "start" : 1581377557414,
+        "stop" : 1581377557466,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93a9b94bdbaa02cb",
+        "name" : "Request",
+        "source" : "93a9b94bdbaa02cb.json",
+        "type" : "application/json",
+        "size" : 28
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 7,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login Form"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Form"
+  }, {
+    "name" : "testMethod",
+    "value" : "should not allow login with invalid username"
+  }, {
+    "name" : "package",
+    "value" : "Login Form"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31b606932c1def37.json",
+  "parameterValues" : [ "chrome" ]
+}
