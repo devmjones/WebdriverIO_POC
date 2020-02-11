@@ -1,32 +1,30 @@
+const CustomReporter = require('./reporter/my.custom.reporter.js').default;
+
 let baseAppUrl =
   process.env.PROD === "true"
     ? "https://webdriver.io/"
     : "http://beta.webdriver.io/";
 
 let browserUnderTest = process.env.BROWSER || "chrome";
-// let headless; // = process.env.HEADLESS;
+let headless = process.env.HEADLESS;
 let path;
 let maxInstances;
+const args = [];
 /// let gpu;
 
 if (browserUnderTest === "chrome") {
   path = "/wd/hub";
   maxInstances = 5;
-  // if (headless) {
-  //   headless = "-headless";
-  //   gpu = "--disable-gpu";
-  // } else {
-  //   headless = "";
-  //   gpu = "";
-  // }
+  if (headless) {
+    args.push('--headless');
+    args.push('--disable-gpu');
+  }
 } else if (browserUnderTest === "firefox") {
   path = "/";
   maxInstances = 3;
-  // if (headless) {
-  //   headless = "-headless";
-  // } else {
-  //   headless = "";
-  // }
+  if (headless) {
+    args.push('-headless');
+  }
 }
 
 exports.config = {
@@ -92,11 +90,11 @@ exports.config = {
       "goog:chromeOptions": {
         // to run chrome headless the following flags are required
         // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
-        //args: [headless, gpu]
+        args
       },
       "moz:firefoxOptions": {
         // flag to activate Firefox headless mode (see https://github.com/mozilla/geckodriver/blob/master/README.md#firefox-capabilities for more details about moz:firefoxOptions)
-       // args: [headless]
+       args
       }
 
       // If outputDir is provided WebdriverIO can capture driver session logs
@@ -184,6 +182,7 @@ exports.config = {
   // see also: https://webdriver.io/docs/dot-reporter.html
   reporters: [
     "spec",
+    [CustomReporter, {}],
     [
       "allure",
       {
@@ -191,7 +190,7 @@ exports.config = {
         disableWebdriverStepsReporting: false,
         disableWebdriverScreenshotsReporting: false
       }
-    ]
+    ],
   ],
 
   //

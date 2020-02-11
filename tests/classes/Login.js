@@ -1,6 +1,7 @@
 import BasePage from "./BasePage";
 
 class Login extends BasePage {
+
   // Element Getters
   get username() {
     return $("#username");
@@ -31,8 +32,8 @@ class Login extends BasePage {
     this.username.addValue(username);
     this.password.addValue(password);
     this.submit.click();
-    // return this; would allow for method chaining if needed
   }
 }
 
+// Already instantiated
 export default new Login();

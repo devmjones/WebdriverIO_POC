@@ -7,10 +7,12 @@ describe("Login Form", () => {
   });
 
   it("should not allow login with invalid username", () => {
-    // can us browser.debug() to set breakpoints
-
     Login.username.addValue("fooooooo");
     Login.password.addValue("baaaaarrrrrr");
+
+    // can us browser.debug() to set breakpoints
+    // browser.debug();
+
     Login.submit.click();
     Login.error.waitForDisplayed();
     const error = Login.error.getText();
