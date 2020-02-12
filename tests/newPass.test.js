@@ -28,8 +28,11 @@ describe("Set New Password", function(){
     let testName = input.value;
     let error = input.expectedError;
 
-    it("should show the correct error with invalid password format", () => {
+    it(`should show the correct error with invalid password format: ${input.value}`, () => {
+
+      // Switching to Iframe
       browser.switchToFrame($('#result'));
+
       NewPassword.enterNewPass(testName);
       const visibleErrorMessages = $('.helper-text').getText();
       expect(visibleErrorMessages).to.contain(error);

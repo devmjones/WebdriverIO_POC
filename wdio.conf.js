@@ -2,27 +2,27 @@ const CustomReporter = require('./reporter/my.custom.reporter.js').default;
 
 // Logic for passing in env at command line
 let baseAppUrl =
-  process.env.PROD === "true"
-    ? "https://webdriver.io/"
-    : "http://beta.webdriver.io/";
+  process.env.PROD === 'true'
+    ? 'https://webdriver.io/'
+    : 'http://beta.webdriver.io/';
 
 // Browser config logic
-let browserUnderTest = process.env.BROWSER || "chrome";
+let browserUnderTest = process.env.BROWSER || 'chrome';
 let headless = process.env.HEADLESS;
 let path;
 let maxInstances;
 const args = []; // browser config args
 
 
-if (browserUnderTest === "chrome") {
-  path = "/wd/hub";
+if (browserUnderTest === 'chrome') {
+  path = '/wd/hub';
   maxInstances = 5;
   if (headless) {
     args.push('--headless');
     args.push('--disable-gpu');
   }
-} else if (browserUnderTest === "firefox") {
-  path = "/";
+} else if (browserUnderTest === 'firefox') {
+  path = '/';
   maxInstances = 3;
   if (headless) {
     args.push('-headless');
@@ -37,7 +37,7 @@ exports.config = {
   //
   // WebdriverIO allows it to run your tests in arbitrary locations (e.g. locally or
   // on a remote machine).
-  runner: "local",
+  runner: 'local',
 
   // ==================
   // Specify Test Files
@@ -47,7 +47,7 @@ exports.config = {
   // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
   // directory is where your package.json resides, so `wdio` will be called from there.
   //
-  specs: ["./tests/*"],
+  specs: ['./tests/*'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -57,9 +57,9 @@ exports.config = {
   path: path,
 
   suites: {
-    Login: ["./tests/login.test.js"], // can also do by dir:  /tests/Basic/*
-    Title: ["./tests/checkTitle.test.js"],
-    Password: ["./tests/newPass.test.js"]
+    Login: ['./tests/login.test.js'], // can also do by dir:  /tests/Basic/*
+    Title: ['./tests/checkTitle.test.js'],
+    Password: ['./tests/newPass.test.js']
   },
   //
   // ============
@@ -90,12 +90,12 @@ exports.config = {
       // 5 instances get started at a time.
       maxInstances: maxInstances,
       browserName: browserUnderTest,
-      "goog:chromeOptions": {
+      'goog:chromeOptions': {
         // to run chrome headless the following flags are required
         // (see https://developers.google.com/web/updates/2017/04/headless-chrome)
         args
       },
-      "moz:firefoxOptions": {
+      'moz:firefoxOptions': {
         // flag to activate Firefox headless mode (see https://github.com/mozilla/geckodriver/blob/master/README.md#firefox-capabilities for more details about moz:firefoxOptions)
        args
       }
@@ -113,8 +113,8 @@ exports.config = {
   // Define all options that are relevant for the WebdriverIO instance here
   //
   // Level of logging verbosity: trace | debug | info | warn | error | silent
-  logLevel: "info",
-  logDir: "./logs",
+  logLevel: 'info',
+  logDir: './logs',
   //
   // Set specific log levels per logger
   // loggers:
@@ -126,8 +126,8 @@ exports.config = {
   // - @wdio/cli, @wdio/config, @wdio/sync, @wdio/utils
   // Level of logging verbosity: trace | debug | info | warn | error | silent
   logLevels: {
-    webdriver: "info",
-    "@wdio/applitools-service": "info"
+    webdriver: 'info',
+    '@wdio/applitools-service': 'info'
   },
   //
   // If you only want to run your tests until a specific amount of tests have failed use
@@ -156,16 +156,16 @@ exports.config = {
   // Services take over a specific job you don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
-  services: ["selenium-standalone", "chromedriver"],
-  seleniumLogs: "logs",
+  services: ['selenium-standalone', 'chromedriver'],
+  seleniumLogs: 'logs',
   seleniumInstallArgs: {
     drivers: {
-      firefox: { version: "1.19.1" }
+      firefox: { version: '1.19.1' }
     }
   },
   seleniumArgs: {
     drivers: {
-      firefox: { version: "1.19.1" }
+      firefox: { version: '1.19.1'}
     }
   },
 
@@ -175,7 +175,7 @@ exports.config = {
   //
   // Make sure you have the wdio adapter package for the specific framework installed
   // before running any tests.
-  framework: "mocha",
+  framework: 'mocha',
   //
   // The number of times to retry the entire specfile when it fails as a whole
   // specFileRetries: 1,
@@ -184,12 +184,12 @@ exports.config = {
   // The only one supported by default is 'dot'
   // see also: https://webdriver.io/docs/dot-reporter.html
   reporters: [
-    "spec",
+    'spec',
     [CustomReporter, {}],
     [
-      "allure",
+      'allure',
       {
-        outputDir: "allure-results",
+        outputDir: 'allure-results',
         disableWebdriverStepsReporting: false,
         disableWebdriverScreenshotsReporting: false
       }
@@ -200,7 +200,7 @@ exports.config = {
   // Options to be passed to Mocha.
   // See the full list at http://mochajs.org/
   mochaOpts: {
-    ui: "bdd",
+    ui: 'bdd',
     retries: 2
   },
   //
@@ -235,9 +235,9 @@ exports.config = {
    * @param {Array.<String>} specs List of spec file paths that are to be run
    */
   before: function() {
-    require("@babel/register");
-    const chai = require('chai')
-    global.expect = chai.expect
+    require('@babel/register');
+    const chai = require('chai');
+    global.expect = chai.expect;
     chai.Should()
   },
   /**
@@ -316,9 +316,8 @@ exports.config = {
    * @param {Array.<Object>} capabilities list of capabilities details
    * @param {<Object>} results object containing test results
    */
-  onComplete: function(exitCode, config, capabilities, results) {
-    // Shut down browser drivers
-  }
+  // onComplete: function(exitCode, config, capabilities, results) {
+  // }
   /**
    * Gets executed when a refresh happens.
    * @param {String} oldSessionId session ID of the old session

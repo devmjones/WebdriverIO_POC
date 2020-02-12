@@ -11,15 +11,15 @@ class CustomReporter extends WDIOReporter {
   }
 
   onTestPass(test) {
-    this.write(chalk.green.bold(`Congratulations! Your test "${test.title}" passed 👏 \n`));
+    this.write(chalk.green.bold(`Congratulations! Your test '${test.title}' passed 👏 \n`));
   }
 
   onTestFail() {
-    this.write(chalk.red.bold(`Bummer! Your test "${test.title}" failed 😱 \n`));
+    this.write(chalk.red.bold(`Bummer! Your test '${test.title}' failed 😱 \n`));
   }
 
   onTestSkip() {
-    this.write(chalk.yellow.bold(`Not today, test! Your test "${test.title}" was skipped 🤷️ \n`));
+    this.write(chalk.yellow.bold(`Not today, test! Your test '${test.title}' was skipped 🤷️ \n`));
   }
 }
 

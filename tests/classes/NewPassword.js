@@ -1,15 +1,15 @@
-import BasePage from "./BasePage";
+import BasePage from './BasePage';
 
 class NewPassword extends BasePage{
 
   // Element Getters
   get passwordField() {
-    return $("input.password");
+    return $('input.password');
   }
 
   // Methods
   open() {
-    super.open("https://codepen.io/klamping/full/RMmqvq/");
+    super.open('https://codepen.io/klamping/full/RMmqvq/');
   }
 
   enterNewPass(password){

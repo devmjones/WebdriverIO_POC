@@ -1,6 +1,6 @@
 class BasePage {
-  // Could put root url of application here, or import from config baseurl
 
+  // Could put root url of application here, or import from config baseurl
   open(path) {
     browser.url(path);
   }

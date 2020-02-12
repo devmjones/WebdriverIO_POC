@@ -1,14 +1,14 @@
-import BasePage from "./BasePage";
+import BasePage from './BasePage';
 
 class Login extends BasePage {
 
   // Element Getters
   get username() {
-    return $("#username");
+    return $('#username');
   }
 
   get password() {
-    return $("#password");
+    return $('#password');
   }
 
   get submit() {
@@ -16,16 +16,16 @@ class Login extends BasePage {
   }
 
   get error() {
-    return $("#flash");
+    return $('#flash');
   }
 
   get successMsg() {
-    return $("div.flash.success");
+    return $('div.flash.success');
   }
 
   // Methods
   open() {
-    super.open("https://the-internet.herokuapp.com/login");
+    super.open('https://the-internet.herokuapp.com/login');
   }
 
   login(username, password) {
