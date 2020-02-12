@@ -20,8 +20,6 @@ To run in prod env append: PROD=true
 
 Example of chained command line arguments: BROWSER=firefox HEADLESS=true PROD=true npm test -- --suite Title
 
-To start a geckodriver instance: ./geckodriver --port 4444
-
 To generate an Allure report and view in browser: npm run report
 
 To set a breakpoint for debugging: browser.debug() 
@@ -33,3 +31,15 @@ Clone repo
 cd into directory
 
 npm install
+
+
+## Running in Firefox
+You will need to follow the instructions on this page to download the Geckodriver binary and put it in your project path: https://webdriver.io/docs/driverbinaries.html
+
+You will also need to npm install wdio-geckodriver-service
+
+See the wdio.conf for the required config setup
+
+To start a geckodriver instance: ./geckodriver --port 4444
+
+You will need an instance of geckodriver running in another tab to run against Firefox locally.
