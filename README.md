@@ -43,3 +43,10 @@ See the wdio.conf for the required config setup
 To start a geckodriver instance: ./geckodriver --port 4444
 
 You will need an instance of geckodriver running in another tab to run against Firefox locally.
+
+
+## Resources
+
+https://webdriver.io/docs/gettingstarted.html
+https://www.youtube.com/user/medigerati/playlists
+https://www.youtube.com/user/PalmHarborBarber/playlists
