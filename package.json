@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "./node_modules/.bin/wdio wdio.conf.js",
+    "test": "./node_modules/.bin/wdio wdio.conf.cjs",
     "report": "/usr/local/bin/allure generate allure-results --clean && /usr/local/bin/allure open"
   },
   "keywords": [],
@@ -35,6 +35,7 @@
     "wdio-allure-reporter": "^0.8.3",
     "wdio-chromedriver-service": "^5.0.2",
     "wdio-geckodriver-service": "^1.0.3",
+    "wdio-safaridriver-service": "0.0.1",
     "webdriver-manager": "^12.1.7"
   },
   "dependencies": {}

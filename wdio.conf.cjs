@@ -1,4 +1,4 @@
-const CustomReporter = require('./reporter/my.custom.reporter.js').default;
+//const CustomReporter = require('./reporter/my.custom.reporter.js').default;
 
 // Logic for passing in env at command line
 let baseAppUrl =
@@ -27,7 +27,14 @@ if (browserUnderTest === 'chrome') {
   if (headless) {
     args.push('-headless');
   }
+} else if (browserUnderTest === 'safari') {
+  path = '/';
+  maxInstances = 1;
+  if (headless) {
+    args.push('-p 4445');
+  }
 }
+
 
 exports.config = {
   //
@@ -98,6 +105,9 @@ exports.config = {
       'moz:firefoxOptions': {
         // flag to activate Firefox headless mode (see https://github.com/mozilla/geckodriver/blob/master/README.md#firefox-capabilities for more details about moz:firefoxOptions)
        args
+      },
+      'safaridriverArgs': {
+        args
       }
 
       // If outputDir is provided WebdriverIO can capture driver session logs
@@ -156,7 +166,7 @@ exports.config = {
   // Services take over a specific job you don't want to take care of. They enhance
   // your test setup with almost no effort. Unlike plugins, they don't add new
   // commands. Instead, they hook themselves up into the test process.
-  services: ['selenium-standalone', 'chromedriver'],
+  services: ['selenium-standalone', 'chromedriver', 'safaridriver'],
   seleniumLogs: 'logs',
   seleniumInstallArgs: {
     drivers: {
@@ -185,7 +195,7 @@ exports.config = {
   // see also: https://webdriver.io/docs/dot-reporter.html
   reporters: [
     'spec',
-    [CustomReporter, {}],
+   // [CustomReporter, {}],
     [
       'allure',
       {
